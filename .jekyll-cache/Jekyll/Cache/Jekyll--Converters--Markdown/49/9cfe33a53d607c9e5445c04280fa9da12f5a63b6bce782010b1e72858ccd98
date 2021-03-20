@@ -1,0 +1,13 @@
+I"¢<p><img style="width: 40%; float: left; border: 1px solid black; margin-top: 10px; margin-right: 10px;" src="/assets/projects/2018-dro.png" />
+<strong>Overview:</strong> 
+Modern machine learning models are routinely trained over large, heterogeneous datasets consisting of many subpopulations, such as the different demographic groups in a loan default dataset. 
+Models which are accurate for one group may have high
+error for other groups, and optimizing for average loss will select models which generally favor the majority group regardless of the quantity of data. This results in unfair and brittle models which systematically fail
+on minority groups. When the group identity is known, we can explicitly optimize for the worst-off group, but this information is impractical to collect for many tasks due to cost or privacy concerns.</p>
+
+<p>My work studies methods which ensure models perform well over <em>all possible</em> subpopulations of a certain size, as well as the implications of such a guarantee. I have derived an exact correspondence between uniform performance on all subpopulations and a distributionally robust optimization (DRO) problem [<a href="/assets/publications/condrisk.pdf">Duchi+ 2018</a>]
+and regularization methods for effective solving such optimization problems at scale [Sagawa+ 2020, to appear at ICLR].</p>
+
+<p>Using these techniques, we have built language models which performs well under substantial distribution shifts [<a href="https://arxiv.org/abs/1909.02060">Oren+ 2019</a>] as well as training procedures which more fairly allocate a modelâ€™s predictive power to minority groups [<a href="https://arxiv.org/abs/1806.08010">Hashimoto+ 2018</a>].</p>
+
+:ET
