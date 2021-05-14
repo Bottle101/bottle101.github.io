@@ -66,21 +66,25 @@
         </div>
         <div class="nine columns main-description">
             <h1>Botao He</h1>
-            <p>Undergraduate student, love robotics.</p>
+            <p>Undergraduate student, love robots.</p>
             <p></p>
             <p>botao.he [AT] njit.edu.cn</p>
             <p>
-              <span onclick="window.open('https://twitter.com/tatsu_hashimoto')" style="cursor: pointer">
+              <!-- <span onclick="window.open('')" style="cursor: pointer">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </span>
 
               <span onclick="window.open('')" style="cursor: pointer">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
+              </span> -->
 
-              <span onclick="window.open('https://github.com/Bottle101')" style="cursor: pointer">
+              <!-- <span onclick="window.open('https://github.com/Bottle101')" style="cursor: pointer">
                 <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
+              </span> -->
+              <a class="button" href="https://github.com/Bottle101" target="_blank">Github</a>
+              <a class="button" href="/assets/CV/Botao_He_CV.pdf" target="_blank">CV</a>
+
+
             </p>
         </div>
       </div>
@@ -92,10 +96,10 @@
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href=/index.html#bio>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
-          <!---
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#people>People</a></li>
-          --->
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#resume>Resume</a></li>
+          -
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#projects>Projects</a></li>
+          -
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#resume>Experiences</a></li>
         </ul>
       </div>
     </nav>
@@ -104,62 +108,136 @@
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-    I am currently an assistant professor at the computer science department in Stanford university. 
+    Welcome! I am currently an undergraduate student in Robotics Engineering at Nanjing Institute of Technology (NJIT), and also a research assistant in 
+    <a href=http://zju-fast.com/ target="_blank">Fast Lab</a>, Zhejiang University (ZJU).
 </p>
   <p>
     
-    My research uses tools from statistics to make machine learning systems more robust and reliable &#8212; especially in challenging tasks involving natural language. The goal of my research is to use robustness and worst-case performance as a lens to understand and make progress on several fundamental challenges in machine learning and natural language processing. A few topics of recent interest are,
-    
-    <dl style="PADDING-LEFT: 40px">
+    My research interests are perception and motion planning for mobile robots, especially for perception involving sensor-fusion and motion planning in SE(3).
+
+    <!-- <dl style="PADDING-LEFT: 40px">
     <dt><b>Long-tail behavior</b></dt> <dd>How can we ensure that a machine learning system won't fail catastrophically in the wild under changing conditions?</dd>
     <dt><b>Understanding</b></dt>
     <dd>A system which <i> understands </i> how to answer questions or generate text should also do so robustly out-of-domain. </dd>
     <dt><b>Fairness</b></dt>  <dd>Machine learning systems which rely on unreliable correlations can result in spurious and harmful predictions.</dd>
-    </dl>
+    </dl> -->
 
   </p>
   <p>
-    Previously, I was a post-doc at Stanford working for <a href=https://web.stanford.edu/~jduchi/ target="_blank">John C. Duchi</a> and <a href=https://cs.stanford.edu/~pliang/ target="_blank">Percy Liang</a> on tradeoffs between the average and worst-case performance of machine learning models. Before my post-doc, I was a graduate student at MIT co-advised by <a href=https://people.csail.mit.edu/tommi/ target="_blank">Tommi Jaakkola</a> and <a href=http://cgs.csail.mit.edu/ target="_blank">David Gifford</a> and a undergraduate student at Harvard in statistics and math advised by <a href=http://www.people.fas.harvard.edu/~airoldi/ target="_blank">Edoardo Airoldi</a>.
+    The research I appreciate is those trying to solve practical problems with elegant solutions. I am always willing to explore exciting technologies 
+    in Robotics field and use what I learned to help others. <b>My dream is to build a robot that can help people improve their life!</b>
   </p>
 
 </div>
 
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <!-- <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p> -->
+
+  <!-- <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>    
+    <li><div class="button" data-ref="#papers-ML">Stats+ML</div></li>
+    <li><div class="button" data-ref="#papers-NLP">NLP</div></li>
+    <li><div class="button" data-ref="#papers-Bio">Comp Bio</div></li>
+  </ul> -->
+
+  <div class="tab-content">
+
+    <!-- <div class="tab-pane active" id="papers-sel">
+      
+      
+    </div> -->
+
+    <!-- All PAPERS -->
+    <div class="tab-pane active" id="papers-all">
+      <!--  -->
+      
+      
+        <div class="paper">
+          <p class="title"><b>FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event and Depth Sensing.</b></p>
+          <p><b>Botao He*</b>, Haojia Li*, Siyuan Wu, Dong Wang, Zhiwei Zhang, Qianli Dong, Chao Xu, and Fei Gao</p>
+          <p><i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021), under review.</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="/assets/publications/IROS2021_FDV.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://www.youtube.com/watch?v=QPpwppeE_x0" target="_blank">Video</a>
+            
+
+            
+              <a class="button" href="https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      
+        <div class="paper">
+          <p class="title"><b>Whole-Body Real-Time Motion Planning for Multicopters</b></p>
+          <p>Shaohui Yang, <b>Botao He</b>, Zhepei Wang, Chao Xu, and Fei Gao</p>
+          <p><i>IEEE International Conference on Robotics and Automation (ICRA 2021)</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="/assets/publications/ICRA2021_Whole_body.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://www.youtube.com/watch?v=tkhN6Xrxluk" target="_blank">Video</a>
+            
+
+            
+          </div>
+        </div>
+      
+    </div>    
+  </div>
+</div>
+
+
 <!-- ========== PROJECTS ========== -->
-  <h4>Recent Research Areas</h4>
 
 <div class="docs-section" id="projects">
-<!--
+  <h4>Projects</h4>
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#proj-cur">Current Projects</div></li>
     <li><div class="button" data-ref="#proj-past">Past</div></li>    
   </ul>
 
   <div class="tab-content">
+
     <div class="tab-pane active" id="proj-cur">
---!>
-
-
       
       
         
         
-          <div class="row">
+        <div class="row">
         
 
           <div class="four columns">
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="projects/2018-dro.html">
-                    <img src="assets/projects/2018-dro.png" class="u-max-full-width" />
+                  <a href="projects/Haven't-uploaded-yet.html">
+                    <img src="assets/projects/IROS2021_FDV/cover.png" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
                   <center>
-                  <b>Distributionally Robust Models</b> <br/>
+                  <b>Event-based Perception</b> <br/>
                   </center>
-                  Training methods to make models perform even in the worst-case on a population.
+                  Perception involving depth and event sensing, with low latency and high precision.
                 </div>
 
             </div>
@@ -174,16 +252,16 @@
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="projects/2018-nlg.html">
-                    <img src="assets/projects/2018-nlg.png" class="u-max-full-width" />
+                  <a href="projects/Haven't-uploaded-yet.html">
+                    <img src="assets/projects/ICRA2021_Whole_body/cover.png" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
                   <center>
-                  <b>Diverse Natural Language Generation</b> <br/>
+                  <b>Whole-body Motion Planning for Multicopters</b> <br/>
                   </center>
-                  Improving and quantifying the tendency for generation systems to memorize generic statements
+                  A full-body motion planning framework, state-of-art in terms of computation time and memory usage.
                 </div>
 
             </div>
@@ -198,1422 +276,188 @@
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="projects/2016-embed.html">
-                    <img src="assets/projects/2016-embed.png" class="u-max-full-width" />
+                  <a href="projects/Haven't-uploaded-yet.html">
+                    <img src="assets/projects/2018_quad/cover.png" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
                   <center>
-                  <b>Representations from Random Walks</b> <br/>
+                  <b>Light-weight Quadruped Robot</b> <br/>
                   </center>
-                  Understanding when random-walk based word and graph representations works.
+                  A light-weight quadruped designed and built in fresh year.
                 </div>
 
             </div>
           </div>
 
         
-          </div>
+        </div>
         
       
-<!---      </div>
+-   </div>
+
+<div class="tab-pane" id="proj-past">
+  
+  
+    
+    
+    <div class="row">
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/IROS2021_FDV/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>Event-based Perception</b> <br/>
+              </center>
+              Perception involving depth and event sensing, with low latency and high precision.
+            </div>
+
+        </div>
+      </div>
+
+    
+  
+    
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/ICRA2021_Whole_body/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>Whole-body Motion Planning for Multicopters</b> <br/>
+              </center>
+              A full-body motion planning framework, state-of-art in terms of computation time and memory usage.
+            </div>
+
+        </div>
+      </div>
+
+    
+  
+    
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/2018_quad/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>Light-weight Quadruped Robot</b> <br/>
+              </center>
+              A light-weight quadruped designed and built in fresh year.
+            </div>
+
+        </div>
+      </div>
+
+    
+    </div>
+    
+  
+    
+    
+    <div class="row">
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/2020_m600/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>UAV Natural Gas Pipeline Inspection</b> <br/>
+              </center>
+              An autonumous inspection UAV system. It is feasible of our system to save people from inspecting in dangerous places like cliffs!
+            </div>
+
+        </div>
+      </div>
+
+    
+  
+    
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/2019_cannon/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>Electromagnetic Throw System</b> <br/>
+              </center>
+              A throw system that is able to automunously find the target, estimate target's depth and calculate parabola.
+            </div>
+
+        </div>
+      </div>
+
+    
+  
+    
+    
+
+      <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+              <a href="projects/Haven't-uploaded-yet.html">
+                <img src="assets/projects/2018_fightbot/cover.png" class="u-max-full-width" />
+              </a>
+            </div>
+
+            <div class="project-caption">
+              <center>
+              <b>Challenge Arena Fighting</b> <br/>
+              </center>
+              An autonomous robot with ability to move over terrains, detect and attack the opponent autonomously.
+            </div>
+
+        </div>
+      </div>
+
+    
+    </div>
+    
+  
    </div>
----!>
-
-</div>
-
-
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>    
-    <li><div class="button" data-ref="#papers-ML">Stats+ML</div></li>
-    <li><div class="button" data-ref="#papers-NLP">NLP</div></li>
-    <li><div class="button" data-ref="#papers-Bio">Comp Bio</div></li>
-  </ul>
-
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="papers-sel">
-      
-      
-        <div class="paper">
-          <p class="title"><b>Modeling the Second Player in Distributionally Robust Optimization</b>
-            
-              <a class="button" href="https://openreview.net/pdf?id=ZDnzZrTqU9N" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Paul Michel, Tatsunori B. Hashimoto, Graham Neubig</p>
-          <p><i>International Conference on Learning Representations (ICLR 2021)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Approximate Selection with Guarantees using Proxies</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2004.00827" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia</p>
-          <p><i>International Conference on Very Large Data Bases (VLDB 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Improved Natural Language Generation via Loss Truncation</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2004.14589" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang, Tatsunori B Hashimoto</p>
-          <p><i>Annual Meeting of the Association of Computational Linguistics (ACL 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Robustness to Spurious Correlations via Human Annotations</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2007.06661" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Megha Srivastava, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Machine Learning (ICML 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1911.08731" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Learning Representations (ICLR 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Language Modeling</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1909.02060" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Yonatan Oren<b>*</b>, Shiori Sagawa <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Percy Liang</p>
-          <p><i>Empirical Methods in Natural Language Processing (EMNLP 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Losses Against Mixture Covariate Shifts</b>
-            
-              <a class="button" href="/assets/publications/condrisk.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong</p>
-          <p><i>Preprint</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Unifying Human and Statistical Evaluation for Natural Language Generation</b>
-            
-              <a class="button" href="/assets/publications/nlg-paper.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang</p>
-          <p><i>Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Generating Sentences by Editing Prototypes</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1709.08878" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Kelvin Guu<b>*</b>, Tatsunori B Hashimoto<b>*</b>, Yonatan Oren, Percy Liang</p>
-          <p><i>Transactions of the Association of Computational Linguistics (TACL, presented at ACL 2018)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Fairness Without Demographics in Repeated Loss Minimization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1806.08010" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang</p>
-          <p><i>Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Word embeddings as metric recovery in semantic spaces</b>
-            
-              <a class="button" href="https://transacl.org/ojs/index.php/tacl/article/view/809" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola</p>
-          <p><i>Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Metric recovery from directed unweighted graphs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v38/hashimoto15.html" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola</p>
-          <p><i>Artificial Intelligence and Statistics (AISTATS 2015), (best poster at NeurIPS 2014 workshop on networks)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-    </div>
-
-    <!-- All PAPERS -->
-    <div class="tab-pane" id="papers-all">
-      
-      
-        <div class="paper">
-          <p class="title"><b>Modeling the Second Player in Distributionally Robust Optimization</b>
-            
-              <a class="button" href="https://openreview.net/pdf?id=ZDnzZrTqU9N" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Paul Michel, Tatsunori B. Hashimoto, Graham Neubig</p>
-          <p><i>International Conference on Learning Representations (ICLR 2021)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Task-agnostic Indexes for Deep Learning-based Queries over Unstructured Data</b>
-            
-              <a class="button" href="https://arxiv.org/pdf/2009.04540.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia</p>
-          <p><i>Preprint</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>The Disagreement Deconvolution: Bringing Machine Learning Performance Metrics In Line With Reality</b>
-            
-              <a class="button" href="http://www.kayur.org/papers/chi2021.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mitchell L Gordon, Kaitlyn Zhou, Kayur Patel, Tatsunori B Hashimoto, Michael S Bernstein</p>
-          <p><i>Conference on Human Factors in Computing Systems (CHI 2021)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Approximate Selection with Guarantees using Proxies</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2004.00827" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia</p>
-          <p><i>International Conference on Very Large Data Bases (VLDB 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Improved Natural Language Generation via Loss Truncation</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2004.14589" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang, Tatsunori B Hashimoto</p>
-          <p><i>Annual Meeting of the Association of Computational Linguistics (ACL 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Robustness to Spurious Correlations via Human Annotations</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2007.06661" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Megha Srivastava, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Machine Learning (ICML 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1911.08731" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Learning Representations (ICLR 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Autocomplete Systems as a Communication Game</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1911.06964" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mina Lee, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Language Modeling</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1909.02060" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Yonatan Oren<b>*</b>, Shiori Sagawa <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Percy Liang</p>
-          <p><i>Empirical Methods in Natural Language Processing (EMNLP 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Losses Against Mixture Covariate Shifts</b>
-            
-              <a class="button" href="/assets/publications/condrisk.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong</p>
-          <p><i>Preprint</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Inferring Multidimensional Rates of Aging from Cross-Sectional Data</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1807.04709" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Emma Pierson<b>*</b>, Pang Wei Koh <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Daphne Koller, Jure Lesokevic, Nicholas Eriksson, Percy Liang</p>
-          <p><i>22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Unifying Human and Statistical Evaluation for Natural Language Generation</b>
-            
-              <a class="button" href="/assets/publications/nlg-paper.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang</p>
-          <p><i>Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A Retrieve-and-Edit Framework for Predicting Structured Outputs</b>
-            
-              <a class="button" href="http://arxiv.org/abs/1812.01194" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, Percy Liang</p>
-          <p><i>Advances in Neural Information Processing Systems 31 (NeurIPS 2018, Oral)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Generating Sentences by Editing Prototypes</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1709.08878" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Kelvin Guu<b>*</b>, Tatsunori B Hashimoto<b>*</b>, Yonatan Oren, Percy Liang</p>
-          <p><i>Transactions of the Association of Computational Linguistics (TACL, presented at ACL 2018)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Fairness Without Demographics in Repeated Loss Minimization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1806.08010" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang</p>
-          <p><i>Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Derivative free optimization via repeated classification</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1804.03761" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Steve Yadlowsky, John C Duchi</p>
-          <p><i>21st International Conference on Artificial Intelligence and Statistics (AISTATS 2018)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Unsupervised Transformation Learning via Convex Relaxations</b>
-            
-              <a class="button" href="http://papers.nips.cc/paper/7263-unsupervised-transformation-learning-via-convex-relaxations" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Percy S Liang, John C Duchi</p>
-          <p><i>Advances in Neural Information Processing Systems 30 (NeurIPS 2017)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Continuous representations and models from random walk diffusion limits</b>
-            
-              <a class="button" href="https://dspace.mit.edu/handle/1721.1/105670" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto</p>
-          <p><i>PhD Thesis, MIT CSAIL, 2016</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Word embeddings as metric recovery in semantic spaces</b>
-            
-              <a class="button" href="https://transacl.org/ojs/index.php/tacl/article/view/809" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola</p>
-          <p><i>Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Population-Level Diffusions with Generative RNNs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v48/hashimoto16.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Gifford, Tommi S Jaakkola</p>
-          <p><i>Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>From random walks to distances on unweighted graphs</b>
-            
-              <a class="button" href="http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graph" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola</p>
-          <p><i>Advances in Neural Information Processing Systems (NeurIPS 2015)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Metric recovery from directed unweighted graphs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v38/hashimoto15.html" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola</p>
-          <p><i>Artificial Intelligence and Statistics (AISTATS 2015), (best poster at NeurIPS 2014 workshop on networks)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A synergistic DNA logic predicts genome-wide chromatin accessibility</b>
-            
-              <a class="button" href="http://genome.cshlp.org/content/26/10/1430.short" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto<b>*</b>, Richard I Sherwood<b>*</b>, Daniel D Kang<b>*</b>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi S Jaakkola, David K Gifford</p>
-          <p><i>Genome research (2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Cas9 Functionally Opens Chromatin</b>
-            
-              <a class="button" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152683" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Amira A Barkal, Sharanya Srinivasan, Tatsunori B Hashimoto, David K Gifford, Richard I Sherwood</p>
-          <p><i>PloS One (2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Cloning-free CRISPR</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mandana Arbab, Sharanya Srinivasan, Tatsunori B Hashimoto, Niels Geijsen, Richard I Sherwood</p>
-          <p><i>Stem cell reports (2015)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Haoyang Zeng, Tatsunori B Hashimoto, Daniel D Kang, David K Gifford</p>
-          <p><i>Bioinformatics (2015)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Long-term persistence and development of induced pancreatic beta cells generated by lineage conversion of acinar cells</b>
-            
-              <a class="button" href="https://www.nature.com/articles/nbt.3082" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsunori B Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, Qiao Zhou</p>
-          <p><i>Nature Biotechnology (2014)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Universal count correction for high-throughput sequencing</b>
-            
-              <a class="button" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003494" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Matthew D Edwards, David K Gifford</p>
-          <p><i>PLoS computational biology (2014)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape</b>
-            
-              <a class="button" href="https://www.nature.com/articles/nbt.2798" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi S Jaakkola, David K Gifford</p>
-          <p><i>Nature Biotechnology (2014)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates</b>
-            
-              <a class="button" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075320" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Kerry A Geiler-Samerotte, Tatsunori B Hashimoto, Michael F Dion, Bogdan A Budnik, Edoardo M Airoldi, D Allan Drummond</p>
-          <p><i>PloS one (2013)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Lineage-based identification of cellular states and expression programs</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Tommi S Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford</p>
-          <p><i>Bioinformatics (2012)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Finding drug discovery rules of thumb with bump hunting</b>
-            
-              <a class="button" href="http://www.acscinf.org/content/240-abstracts#S81" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Matthew Segall</p>
-          <p><i>Proceedings of the ACS (2010)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>BFL: a node and edge betweenness based fast layout algorithm for large scale networks.</b>
-            
-              <a class="button" href="https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-19" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Masao Nagasaki, Kaname Kojima, Satoru Miyano</p>
-          <p><i>BMC bioinformatics (2009)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-    </div>
-    
-
-    <!-- ML PAPERS -->
-    <div class="tab-pane" id="papers-ML">
-      
-      
-        <div class="paper">
-          <p class="title"><b>Modeling the Second Player in Distributionally Robust Optimization</b>
-            
-              <a class="button" href="https://openreview.net/pdf?id=ZDnzZrTqU9N" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Paul Michel, Tatsunori B. Hashimoto, Graham Neubig</p>
-          <p><i>International Conference on Learning Representations (ICLR 2021)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Task-agnostic Indexes for Deep Learning-based Queries over Unstructured Data</b>
-            
-              <a class="button" href="https://arxiv.org/pdf/2009.04540.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia</p>
-          <p><i>Preprint</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Approximate Selection with Guarantees using Proxies</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2004.00827" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia</p>
-          <p><i>International Conference on Very Large Data Bases (VLDB 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Robustness to Spurious Correlations via Human Annotations</b>
-            
-              <a class="button" href="https://arxiv.org/abs/2007.06661" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Megha Srivastava, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Machine Learning (ICML 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1911.08731" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>International Conference on Learning Representations (ICLR 2020)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Losses Against Mixture Covariate Shifts</b>
-            
-              <a class="button" href="/assets/publications/condrisk.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong</p>
-          <p><i>Preprint</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A Retrieve-and-Edit Framework for Predicting Structured Outputs</b>
-            
-              <a class="button" href="http://arxiv.org/abs/1812.01194" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, Percy Liang</p>
-          <p><i>Advances in Neural Information Processing Systems 31 (NeurIPS 2018, Oral)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Fairness Without Demographics in Repeated Loss Minimization</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1806.08010" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang</p>
-          <p><i>Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Derivative free optimization via repeated classification</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1804.03761" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Steve Yadlowsky, John C Duchi</p>
-          <p><i>21st International Conference on Artificial Intelligence and Statistics (AISTATS 2018)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Unsupervised Transformation Learning via Convex Relaxations</b>
-            
-              <a class="button" href="http://papers.nips.cc/paper/7263-unsupervised-transformation-learning-via-convex-relaxations" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Percy S Liang, John C Duchi</p>
-          <p><i>Advances in Neural Information Processing Systems 30 (NeurIPS 2017)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Continuous representations and models from random walk diffusion limits</b>
-            
-              <a class="button" href="https://dspace.mit.edu/handle/1721.1/105670" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto</p>
-          <p><i>PhD Thesis, MIT CSAIL, 2016</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Word embeddings as metric recovery in semantic spaces</b>
-            
-              <a class="button" href="https://transacl.org/ojs/index.php/tacl/article/view/809" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola</p>
-          <p><i>Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Population-Level Diffusions with Generative RNNs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v48/hashimoto16.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Gifford, Tommi S Jaakkola</p>
-          <p><i>Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>From random walks to distances on unweighted graphs</b>
-            
-              <a class="button" href="http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graph" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola</p>
-          <p><i>Advances in Neural Information Processing Systems (NeurIPS 2015)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Metric recovery from directed unweighted graphs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v38/hashimoto15.html" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola</p>
-          <p><i>Artificial Intelligence and Statistics (AISTATS 2015), (best poster at NeurIPS 2014 workshop on networks)</i></p>
-           <div class="paper-buttons">
-
-          </div>
-        </div>
-      
-    </div>
-
-    <!-- NLP PAPERS -->
-    <div class="tab-pane" id="papers-NLP">
-      
-      
-        <div class="paper">
-          <p class="title"><b>The Disagreement Deconvolution: Bringing Machine Learning Performance Metrics In Line With Reality</b>
-          
-              <a class="button" href="http://www.kayur.org/papers/chi2021.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mitchell L Gordon, Kaitlyn Zhou, Kayur Patel, Tatsunori B Hashimoto, Michael S Bernstein</p>
-          <p><i>Conference on Human Factors in Computing Systems (CHI 2021)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Improved Natural Language Generation via Loss Truncation</b>
-          
-              <a class="button" href="https://arxiv.org/abs/2004.14589" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Daniel Kang, Tatsunori B Hashimoto</p>
-          <p><i>Annual Meeting of the Association of Computational Linguistics (ACL 2020)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Autocomplete Systems as a Communication Game</b>
-          
-              <a class="button" href="https://arxiv.org/abs/1911.06964" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mina Lee, Tatsunori B Hashimoto, Percy Liang</p>
-          <p><i>Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS 2019)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Distributionally Robust Language Modeling</b>
-          
-              <a class="button" href="https://arxiv.org/abs/1909.02060" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Yonatan Oren<b>*</b>, Shiori Sagawa <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Percy Liang</p>
-          <p><i>Empirical Methods in Natural Language Processing (EMNLP 2019)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Unifying Human and Statistical Evaluation for Natural Language Generation</b>
-          
-              <a class="button" href="/assets/publications/nlg-paper.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang</p>
-          <p><i>Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A Retrieve-and-Edit Framework for Predicting Structured Outputs</b>
-          
-              <a class="button" href="http://arxiv.org/abs/1812.01194" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, Percy Liang</p>
-          <p><i>Advances in Neural Information Processing Systems 31 (NeurIPS 2018, Oral)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Generating Sentences by Editing Prototypes</b>
-          
-              <a class="button" href="https://arxiv.org/abs/1709.08878" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Kelvin Guu<b>*</b>, Tatsunori B Hashimoto<b>*</b>, Yonatan Oren, Percy Liang</p>
-          <p><i>Transactions of the Association of Computational Linguistics (TACL, presented at ACL 2018)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Continuous representations and models from random walk diffusion limits</b>
-          
-              <a class="button" href="https://dspace.mit.edu/handle/1721.1/105670" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto</p>
-          <p><i>PhD Thesis, MIT CSAIL, 2016</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Word embeddings as metric recovery in semantic spaces</b>
-          
-              <a class="button" href="https://transacl.org/ojs/index.php/tacl/article/view/809" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola</p>
-          <p><i>Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)</i></p>
-        </div>
-      
-    </div>
-    <!-- Bio PAPERS -->
-    <div class="tab-pane" id="papers-Bio">
-      
-      
-        <div class="paper">
-          <p class="title"><b>Inferring Multidimensional Rates of Aging from Cross-Sectional Data</b>
-            
-              <a class="button" href="https://arxiv.org/abs/1807.04709" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Emma Pierson<b>*</b>, Pang Wei Koh <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Daphne Koller, Jure Lesokevic, Nicholas Eriksson, Percy Liang</p>
-          <p><i>22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Continuous representations and models from random walk diffusion limits</b>
-            
-              <a class="button" href="https://dspace.mit.edu/handle/1721.1/105670" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto</p>
-          <p><i>PhD Thesis, MIT CSAIL, 2016</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Population-Level Diffusions with Generative RNNs</b>
-            
-              <a class="button" href="http://proceedings.mlr.press/v48/hashimoto16.pdf" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, David Gifford, Tommi S Jaakkola</p>
-          <p><i>Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A synergistic DNA logic predicts genome-wide chromatin accessibility</b>
-            
-              <a class="button" href="http://genome.cshlp.org/content/26/10/1430.short" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto<b>*</b>, Richard I Sherwood<b>*</b>, Daniel D Kang<b>*</b>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi S Jaakkola, David K Gifford</p>
-          <p><i>Genome research (2016)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Cas9 Functionally Opens Chromatin</b>
-            
-              <a class="button" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152683" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Amira A Barkal, Sharanya Srinivasan, Tatsunori B Hashimoto, David K Gifford, Richard I Sherwood</p>
-          <p><i>PloS One (2016)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Cloning-free CRISPR</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Mandana Arbab, Sharanya Srinivasan, Tatsunori B Hashimoto, Niels Geijsen, Richard I Sherwood</p>
-          <p><i>Stem cell reports (2015)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Haoyang Zeng, Tatsunori B Hashimoto, Daniel D Kang, David K Gifford</p>
-          <p><i>Bioinformatics (2015)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Long-term persistence and development of induced pancreatic beta cells generated by lineage conversion of acinar cells</b>
-            
-              <a class="button" href="https://www.nature.com/articles/nbt.3082" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsunori B Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, Qiao Zhou</p>
-          <p><i>Nature Biotechnology (2014)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Universal count correction for high-throughput sequencing</b>
-            
-              <a class="button" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003494" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Matthew D Edwards, David K Gifford</p>
-          <p><i>PLoS computational biology (2014)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape</b>
-            
-              <a class="button" href="https://www.nature.com/articles/nbt.2798" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi S Jaakkola, David K Gifford</p>
-          <p><i>Nature Biotechnology (2014)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates</b>
-            
-              <a class="button" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075320" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Kerry A Geiler-Samerotte, Tatsunori B Hashimoto, Michael F Dion, Bogdan A Budnik, Edoardo M Airoldi, D Allan Drummond</p>
-          <p><i>PloS one (2013)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Lineage-based identification of cellular states and expression programs</b>
-            
-              <a class="button" href="http://www.sciencedirect.com/science/article/pii/S2213671115002842" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Tommi S Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford</p>
-          <p><i>Bioinformatics (2012)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Finding drug discovery rules of thumb with bump hunting</b>
-            
-              <a class="button" href="http://www.acscinf.org/content/240-abstracts#S81" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Matthew Segall</p>
-          <p><i>Proceedings of the ACS (2010)</i></p>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>BFL: a node and edge betweenness based fast layout algorithm for large scale networks.</b>
-            
-              <a class="button" href="https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-19" target="_blank">PDF</a>
-            
-            
-            
-            
-            
-          </p>
-          <p>Tatsunori B Hashimoto, Masao Nagasaki, Kaname Kojima, Satoru Miyano</p>
-          <p><i>BMC bioinformatics (2009)</i></p>
-        </div>
-      
-    </div>
-    
   </div>
+
 </div>
+<!-- 
+
 
 <div class="docs-section" id="teaching">
   <h4>Teaching</h4>
@@ -1627,10 +471,10 @@
     <p class="title"><b>CS221</b> (Winter 2021): <a href=https://stanford-cs221.github.io/winter2021/ target="_blank">Artificial Intelligence: Principles and Techniques</a></p>
   </div>
   
-</div>
+</div> -->
 
 
-<div class="docs-section" id="talks">
+<!-- <div class="docs-section" id="talks">
   <h4>Talks and slides</h4>
   
   
@@ -1642,7 +486,7 @@
     <p class="title"><b>Neyman Seminar</b> (Berkeley Statistics, 8/28): <a href=https://drive.google.com/file/d/1sJBk4lZnXQtRIYuofTLgO93Wg_bLhZSO/view?usp=sharing target="_blank">Statistical Challenges in Understanding and Improving Natural Language Generation</a></p>
   </div>
   
-</div>
+</div> -->
 
 
 <!---
@@ -1710,7 +554,7 @@
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
-  <h4>Resume</h4>
+  <h4>Experiences</h4>
 
   <!-- The Timeline -->
   <ul class="timeline">
@@ -1720,34 +564,10 @@
       <div class="direction-l">
       
         <div class="flag-wrapper">
-          <span class="flag">Stanford CS</span>
-          <span class="time-wrapper"><span class="time">2020 - now</span></span>
+          <span class="flag">Zhejiang University</span>
+          <span class="time-wrapper"><span class="time">2019 - now</span></span>
         </div>
-        <div class="desc"><b>Assistant professor</b> <br/> </div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Microsoft Semantic Machines</span>
-          <span class="time-wrapper"><span class="time">2019 - 2020</span></span>
-        </div>
-        <div class="desc"><b>Researcher</b> <br/> </div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Stanford CS / Statistics</span>
-          <span class="time-wrapper"><span class="time">2016 - 2019</span></span>
-        </div>
-        <div class="desc"><b>Postdoc</b> <br/> Working for Percy Liang + John Duchi</div>
+        <div class="desc"><b>Research Assistant</b> <br/> FAST (Field Autonomous System & compuTing) Lab. Advised by Prof. Fei Gao.</div>
       </div>
     </li>
     
@@ -1756,10 +576,10 @@
       <div class="direction-r">
       
         <div class="flag-wrapper">
-          <span class="flag">MIT CSAIL</span>
-          <span class="time-wrapper"><span class="time">2011 - 2016</span></span>
+          <span class="flag">Nanjing Institute of Technology</span>
+          <span class="time-wrapper"><span class="time">2018 - now</span></span>
         </div>
-        <div class="desc"><b>Ph.D.</b> <br/> Advised by Tommi Jaakkola + David Gifford</div>
+        <div class="desc"><b>Undergraduate</b> <br/> Major in Robot Engineering.</div>
       </div>
     </li>
     
@@ -1768,46 +588,10 @@
       <div class="direction-l">
       
         <div class="flag-wrapper">
-          <span class="flag">RIKEN BSI</span>
-          <span class="time-wrapper"><span class="time">2007 - 2011</span></span>
+          <span class="flag">Zhejiang Energy Group CP LTD</span>
+          <span class="time-wrapper"><span class="time">2020 Spring</span></span>
         </div>
-        <div class="desc"><b>Intern</b> <br/> Laboratory for neural circuit theory</div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Optibrium LTD</span>
-          <span class="time-wrapper"><span class="time">Summer 2010</span></span>
-        </div>
-        <div class="desc"><b>Summer Intern</b> <br/> ML engineer</div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-r">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Harvard University</span>
-          <span class="time-wrapper"><span class="time">2007 - 2011</span></span>
-        </div>
-        <div class="desc"><b>Undergraduate</b> <br/> Cum laude and departmental honors in Statistics and Math. Advised by Edoardo Airoldi.</div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">U. Tokyo Institute of Medical Science</span>
-          <span class="time-wrapper"><span class="time">2006 - 2007</span></span>
-        </div>
-        <div class="desc"><b>Intern and Translator</b> <br/> Miyano research lab</div>
+        <div class="desc"><b>Intern</b> <br/> Robot engineer</div>
       </div>
     </li>
     
@@ -1833,12 +617,12 @@
           botao.he [AT] njit.edu.cn
         </div>
         <div class="four columns">
-          <span onclick="window.open('https://twitter.com/tatsu_hashimoto')" style="cursor: pointer">
+          <!-- <span onclick="window.open('')" style="cursor: pointer">
             <i class="fa fa-twitter" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('')" style="cursor: pointer">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
+          </span> -->
           <span onclick="window.open('https://github.com/Bottle101')" style="cursor: pointer">
             <i class="fa fa-github" aria-hidden="true"></i>
           </span>
@@ -1855,7 +639,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-47613584-4', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
 </script>

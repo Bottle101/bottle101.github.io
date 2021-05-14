@@ -1,18 +1,37 @@
 projects:
-  - title: "Distributionally Robust Models"
-    subtitle: "Training methods to make models perform even in the worst-case on a population."
-    thumbnail: "assets/projects/2018-dro.png"
-    url: "projects/2018-dro.html"
+  - title: "Event-based Perception"
+    subtitle: "Perception involving depth and event sensing, with low latency and high precision."
+    thumbnail: "assets/projects/IROS2021_FDV/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
     selected: y
 
-  - title: "Diverse Natural Language Generation"
-    subtitle: "Improving and quantifying the tendency for generation systems to memorize generic statements"
-    thumbnail: "assets/projects/2018-nlg.png"
-    url: "projects/2018-nlg.html"
+  - title: "Whole-body Motion Planning for Multicopters"
+    subtitle: "A full-body motion planning framework, state-of-art in terms of computation time and memory usage."
+    thumbnail: "assets/projects/ICRA2021_Whole_body/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
     selected: y
 
-  - title: "Representations from Random Walks"
-    subtitle: "Understanding when random-walk based word and graph representations works."
-    thumbnail: "assets/projects/2016-embed.png"
-    url: "projects/2016-embed.html"
+  - title: "Light-weight Quadruped Robot"
+    subtitle: "A light-weight quadruped designed and built in fresh year."
+    thumbnail: "assets/projects/2018_quad/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
     selected: y
+
+  - title: "UAV Natural Gas Pipeline Inspection"
+    subtitle: "An autonumous inspection UAV system.
+    It is feasible of our system to save people from inspecting in dangerous places like cliffs!"
+    thumbnail: "assets/projects/2020_m600/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
+    selected: n
+
+  - title: "Electromagnetic Throw System"
+    subtitle: "A throw system that is able to automunously find the target, estimate target's depth and calculate parabola."
+    thumbnail: "assets/projects/2019_cannon/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
+    selected: n
+
+  - title: "Challenge Arena Fighting"
+    subtitle: "An autonomous robot with ability to move over terrains, detect and attack the opponent autonomously."
+    thumbnail: "assets/projects/2018_fightbot/cover.png"
+    url: "projects/Haven't-uploaded-yet.html"
+    selected: n

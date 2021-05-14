@@ -1,8 +1,9 @@
 name: "Botao He"
-title: "Undergraduate student, love robotics."
+title: "Undergraduate student, love robots."
 email: "botao.he [AT] njit.edu.cn"
 profile_pic: "/assets/profile-pics/botao.jpg"
-twitter: "https://twitter.com/tatsu_hashimoto"
+# twitter: "https://twitter.com/tatsu_hashimoto"
 # linkedin: "https://www.linkedin.com/in/tatsunori-hashimoto-383231a"
 github: "https://github.com/Bottle101"
-google_analystics_tracking_id: 'UA-47613584-4'
+cv: "/assets/CV/Botao_He_CV.pdf"
+# google_analystics_tracking_id: 'UA-47613584-4'
