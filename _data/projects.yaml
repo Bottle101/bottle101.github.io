@@ -7,7 +7,7 @@ projects:
 
   - title: "Whole-body Motion Planning for Multicopters"
     subtitle: "A full-body motion planning framework, state-of-art in terms of computation time and memory usage."
-    thumbnail: "assets/projects/ICRA2021_Whole_body/cover.png"
+    thumbnail: "assets/projects/ICRA2021_Whole_body/cover.jpg"
     url: "projects/Haven't-uploaded-yet.html"
     selected: y
 
@@ -20,13 +20,13 @@ projects:
   - title: "UAV Natural Gas Pipeline Inspection"
     subtitle: "An autonumous inspection UAV system.
     It is feasible of our system to save people from inspecting in dangerous places like cliffs!"
-    thumbnail: "assets/projects/2020_m600/cover.png"
+    thumbnail: "assets/projects/2020_m600/cover.jpg"
     url: "projects/Haven't-uploaded-yet.html"
     selected: n
 
   - title: "Electromagnetic Throw System"
     subtitle: "A throw system that is able to automunously find the target, estimate target's depth and calculate parabola."
-    thumbnail: "assets/projects/2019_cannon/cover.png"
+    thumbnail: "assets/projects/2019_cannon/cover.jpg"
     url: "projects/Haven't-uploaded-yet.html"
     selected: n
 
