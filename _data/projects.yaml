@@ -2,13 +2,13 @@ projects:
   - title: "Event-based Perception"
     subtitle: "Perception involving depth and event sensing, with low latency and high precision."
     thumbnail: "assets/projects/IROS2021_FDV/cover.png"
-    url: "projects/Haven't-uploaded-yet.html"
+    url: "https://www.youtube.com/watch?v=QPpwppeE_x0"
     selected: y
 
   - title: "Whole-body Motion Planning for Multicopters"
     subtitle: "A full-body motion planning framework, state-of-art in terms of computation time and memory usage."
     thumbnail: "assets/projects/ICRA2021_Whole_body/cover.jpg"
-    url: "projects/Haven't-uploaded-yet.html"
+    url: "https://www.youtube.com/watch?v=tkhN6Xrxluk"
     selected: y
 
   - title: "Light-weight Quadruped Robot"

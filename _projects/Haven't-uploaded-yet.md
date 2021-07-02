@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Haven't uploaded yet
-subtitle: Haven't uploaded yet
+title: Under Construction, haven't uploaded yet.
+subtitle:  
 ---
 
 **Haven't uploaded yet:** 
-Haven't uploaded yet
+

@@ -1,0 +1,8 @@
+awards:
+    - name: "CS329D"
+      time: "Spring 2021"
+      title: "Machine Learning Under Distribution Shifts"
+
+    - name: "CS221"
+      time: "Winter 2021"
+      title: "Artificial Intelligence: Principles and Techniques"
