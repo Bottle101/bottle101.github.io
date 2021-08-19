@@ -10,7 +10,6 @@ papers:
   - title: "Whole-Body Real-Time Motion Planning for Multicopters"
     authors: "Shaohui Yang, <b>Botao He</b>, Zhepei Wang, Chao Xu, and Fei Gao"
     venue: "IEEE International Conference on Robotics and Automation (ICRA 2021)"
-    paper_pdf: /assets/publications/ICRA2021_Whole_body.pdf
     video: https://www.youtube.com/watch?v=tkhN6Xrxluk
     statsml: y
 
