@@ -1,0 +1,18 @@
+experiences:
+- place: "Zhejiang University"
+  time: "Feb, 2020 - NOW"
+  title: "Visiting Student"
+  subtitle: "FAST (Field Autonomous System & compuTing) Lab. Advised by Prof. Fei Gao."
+  category: "work"
+
+- place: "Nanjing Institute of Technology"
+  time: "Sep, 2018 - NOW"
+  title: "Undergraduate"
+  subtitle: "Major in Robot Engineering."
+  category: "school"
+
+- place: "Zhejiang Energy Group CP LTD"
+  time: "2020 Spring"
+  title: "Intern"
+  subtitle: "Robot engineer"
+  category: "work"

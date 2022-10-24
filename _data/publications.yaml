@@ -1,0 +1,35 @@
+papers:
+  - title: "A Texture-enhanced Event Camera Using Rotating Wedge Prism"
+    authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh and Fei Gao."
+    venue: "Technical Report"
+    paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
+    # video: https://www.youtube.com/watch?v=WYujLePQwB8
+    # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
+    statsml: y  
+
+  - title: "GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation"
+    authors: "Qianhao Wang*, <b>Botao He*</b>, Zhiren Xun and Fei Gao."
+    venue: "IEEE Robotics and Automation Letters (RA-L) and IEEE International Conference on Robotics and Automation (ICRA 2022)."
+    paper_pdf: /assets/publications/RAL2022_GPA-Teleoperation.pdf
+    video: https://www.youtube.com/watch?v=WYujLePQwB8
+    code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
+    statsml: y
+
+  - title: "FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event and Depth Sensing"
+    authors: "<b>Botao He*</b>, Haojia Li*, Siyuan Wu, Dong Wang, Zhiwei Zhang, Qianli Dong, Chao Xu, and Fei Gao"
+    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)."
+    paper_pdf: /assets/publications/IROS2021_FDV.pdf
+    video: https://www.youtube.com/watch?v=QPpwppeE_x0
+    code: https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision
+    statsml: y
+
+  - title: "Whole-Body Real-Time Motion Planning for Multicopters"
+    authors: "Shaohui Yang, <b>Botao He</b>, Zhepei Wang, Chao Xu, and Fei Gao"
+    venue: "IEEE International Conference on Robotics and Automation (ICRA 2021)"
+    paper_pdf: /assets/publications/ICRA2021_Whole_body.pdf
+    video: https://www.youtube.com/watch?v=tkhN6Xrxluk
+    statsml: y
+
+
+
+

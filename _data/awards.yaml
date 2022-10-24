@@ -1,0 +1,25 @@
+awards:
+    - name: "First Prize"
+      time: "2018-2021"
+      title: "Academic Scholarship(~5%)"
+      institute: "NJIT"
+
+    - name: "First Prize of Jiangsu province"
+      time: "2019"
+      title: "National College Student Electronics Design Contest"
+      institute: " "
+
+    - name: "Second Prize"
+      time: "2019"
+      title: "National Intelligent Robot Fighting Competition"
+      institute: " "
+
+    - name: "Third Prize"
+      time: "2019"
+      title: "The 8th National University Contest on Intelligent Robotic Innovations"
+      institute: " "
+
+    - name: "Stack Overflow"
+      time: "2023"
+      title: "If the Best Baby in Kindergarten(<1%) counts, I didn't even win it"
+      institute: " "

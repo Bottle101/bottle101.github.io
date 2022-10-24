@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Botao He | Representations from Random Walk Diffusions</title>
+  <meta name="description" content="Homepage of Botao HE">
+  <meta name="author" content="Botao HE">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/libs/external/github-prettify-theme.css>-->
+  <script src=/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- 
+  <link rel="icon" type="image/png" href=/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/libs/icon.png>
+  -->
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/"><img class="u-max-full-width"
+              src='/assets/profile-pics/botao.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+          <h1>Botao He</h1>
+          <p>PhD student, love mobile robots.</p>
+          <p></p>
+          <p>botao@umd.edu / hebotao101@gmail.com</p>
+          <p>
+            <!-- <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span> -->
+
+            <!-- <span onclick="window.open('https://github.com/Bottle101')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span> -->
+            <a class="button" href="https://github.com/Bottle101" target="_blank">Github</a>
+            <a class="button" href="/assets/CV/Botao_He_CV.pdf" target="_blank">CV</a>
+            <a class="button" href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#bio>Bio</a>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
+
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#projects>Projects</a></li>
+
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#resume>Experiences</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+
+  
+    <div class="title-subtitle">
+      <h3>Representations from Random Walk Diffusions</h3>
+      <h5>Understanding the link between random-walk similarities and embeddings.</h5>
+    </div>
+  
+
+  <p><img style="width: 40%; float: left; border: 1px solid black; margin-top: 10px; margin-right: 10px;" src="/assets/projects/2016-embed.png" />
+<strong>Overview:</strong> 
+Structured data such as sequences and networks pose substantial difficulty for traditional statistical theory which has focused on data drawn independently from a vector space. A popular and empirically effective technique for dealing with such data is to map elements of the data to a vector space and to operate over the embedding as a summary statistic. Such a vector representation of discrete objects is known as a `continuous representation’.
+Continuous space models of words, objects, and signals have become ubiquitous tools for learning rich representations of data, from natural language processing to computer vision. Even in cases that the embedding is not explicit, many algorithms operate over similarity measures which implicitly embed the original dataset. In this line of work, we attempt to understand the intuition behind continuous representations. Can we construct a general theory of continuous representations? Are there general principles for semantically meaningful representations?</p>
+
+<p>In order to answer these questions, we develop a framework for analyzing continuous representations through diffusion limits of random walks. We show that measurable quantities of discrete random walks with a latent metric structure have closed form diffusion limits. These diffusion limits allow us to approximate attributes of the discrete random walk such as the stationary distribution, hitting time, or co-occurrence using closed-form expressions from diffusions. We establish limits which guarantee asymptotic consistency of such estimators, and show they work well in practice.</p>
+
+<p>Using this new approach, we solve three classes of problems: first, we derive principled network algorithms which connect statistical estimation tasks such as density estimation to network algorithms such as PageRank [<a href="http://proceedings.mlr.press/v38/hashimoto15.html">Hashimoto+2015</a>][<a href="http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graph">Hashimoto+2016</a>]. Next, we demonstrated that continuous representations of words are a type of random walk metric estimator with close connections to manifold learning [<a href="https://transacl.org/ojs/index.php/tacl/article/view/809">Hashimoto+2016</a>]. Finally, we apply our theory to single-cell RNA seq data, and derive a way to learn time-series models without trajectories by using stochastic recurrent neural networks [<a href="http://proceedings.mlr.press/v48/hashimoto16.pdf">Hashimoto+2016</a>].</p>
+
+
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          Botao He
+        </div>
+        <div class="four columns">
+          botao@umd.edu / hebotao101@gmail.com
+        </div>
+        <div class="four columns">
+          <!-- <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span> -->
+          <span onclick="window.open('https://github.com/Bottle101')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
