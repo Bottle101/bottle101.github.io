@@ -1,9 +1,9 @@
 projects:
-  - title: "Texture-enhanced Event Camera"
-    subtitle: "A systematic solution that makes event camera generate rich and stable texture information."
-    thumbnail: "assets/projects/Report2022_RotateCam/cover.png"
-    url: "/assets/publications/Report_RotatingWedgePrimEventCam.pdf"
-    selected: y
+  # - title: "Texture-enhanced Event Camera"
+  #   subtitle: "A systematic solution that makes event camera generate rich and stable texture information."
+  #   thumbnail: "assets/projects/Report2022_RotateCam/cover.png"
+  #   url: "/assets/publications/Report_RotatingWedgePrimEventCam.pdf"
+  #   selected: y
 
   - title: "Advanced Pilot Assistance System (APAS)."
     subtitle: "A gaze enhanced perception-aware assistive teleoperation framework, making drone operation easy for everyone."
