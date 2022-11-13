@@ -1,11 +1,11 @@
 papers:
-  # - title: "A Texture-enhanced Event Camera Using Rotating Wedge Prism"
-  #   authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh and Fei Gao."
-  #   venue: "Technical Report"
-  #   paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
-  #   # video: https://www.youtube.com/watch?v=WYujLePQwB8
-  #   # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
-  #   statsml: y  
+  - title: "Leveraging an Active Prism to Enhance Feature Detection in Event Cameras"
+    authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, Chao Xu and Fei Gao."
+    venue: "Technical Report"
+    paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
+    # video: https://www.youtube.com/watch?v=WYujLePQwB8
+    # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
+    statsml: y  
 
   - title: "GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation"
     authors: "Qianhao Wang*, <b>Botao He*</b>, Zhiren Xun and Fei Gao."
