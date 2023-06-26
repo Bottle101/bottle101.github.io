@@ -1,4 +1,10 @@
 experiences:
+- place: "Carnegie Mellon University"
+  time: "May, 2023 - NOW"
+  title: "Visiting Student"
+  subtitle: "Advised by Prof. Ji Zhang."
+  category: "work"
+
 - place: "University of Maryland"
   time: "Sep, 2022 - NOW"
   title: "Ph.D. Student in Computer Science"
@@ -12,13 +18,13 @@ experiences:
   category: "work"
 
 - place: "Nanjing Institute of Technology"
-  time: "Sep, 2018 - NOW"
+  time: "Sep, 2018 - June, 2022"
   title: "Undergraduate"
   subtitle: "Major in Robot Engineering."
   category: "school"
 
-- place: "Zhejiang Energy Group CP LTD"
-  time: "2020 Spring"
-  title: "Intern"
-  subtitle: "Robot engineer"
-  category: "work"
+# - place: "Zhejiang Energy Group CP LTD"
+#   time: "2020 Spring"
+#   title: "Intern"
+#   subtitle: "Robot engineer"
+#   category: "work"
