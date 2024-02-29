@@ -1,4 +1,12 @@
 papers:
+  - title: "Microsaccade-inspired Event Camera for Robotics"
+    authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
+    venue: "Science Robotics, <b>Accepted - Technical Hold, to be released</b>"
+    # paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
+    # video: https://www.youtube.com/watch?v=WYujLePQwB8
+    # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
+    statsml: y  
+
   - title: "Leveraging an Active Prism to Enhance Feature Detection in Event Cameras"
     authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, Chao Xu and Fei Gao."
     venue: "Technical Report"
