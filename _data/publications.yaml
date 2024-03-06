@@ -1,6 +1,7 @@
 papers:
   - title: "Microsaccade-inspired Event Camera for Robotics"
-    authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
+    # authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
+    authors: "Botao He, et al."
     venue: "Science Robotics, <b>Accepted - Technical Hold, to be released</b>"
     # paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
     # video: https://www.youtube.com/watch?v=WYujLePQwB8
