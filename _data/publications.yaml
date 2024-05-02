@@ -1,8 +1,16 @@
 papers:
+  - title: "Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation Among Movable Obstacles in Complex Unknown Environments"
+    authors: "<b>Botao He</b>, Guofei Chen*, Wenshan Wang, Ji Zhang, Cornelia Fermuller, Yiannis Aloimonos."
+    venue: "Submitted to IROS 2024  "
+    paper_pdf: https://arxiv.org/abs/2404.07447
+    video: https://www.youtube.com/watch?v=5FNN5Us8-2o
+    code: https://github.com/Bottle101/Interactive-FAR
+    statsml: y  
+
   - title: "Microsaccade-inspired Event Camera for Robotics"
-    # authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
-    authors: "Botao He, et al."
-    venue: "Science Robotics, <b>Accepted - Technical Hold, to be released</b>"
+    authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Shaojie Shen, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
+    # authors: "Botao He, et al."
+    venue: "Science Robotics, <b>Accepted, to be released</b>"
     # paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
     # video: https://www.youtube.com/watch?v=WYujLePQwB8
     # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
@@ -12,8 +20,6 @@ papers:
     authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, Chao Xu and Fei Gao."
     venue: "Technical Report"
     paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
-    # video: https://www.youtube.com/watch?v=WYujLePQwB8
-    # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
     statsml: y  
 
   - title: "GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation"
