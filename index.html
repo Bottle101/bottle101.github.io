@@ -40,7 +40,7 @@ title: Home
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h4>Selected Publications</h4>
 
   <!-- <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p> -->
 
@@ -59,8 +59,16 @@ title: Home
       {% for paper in papers %}
       <div class="paper">
         <p class="title"><b>{{ paper.title }}</b>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.website %}
+          <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
+          {% endif %}
           {% if paper.paper_pdf %}
-          <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+          <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+          {% endif %}
+          {% if paper.preprint %}
+          <a class="button" href="{{ paper.preprint | prepend: site.baseurl }}" target="_blank">Pre-print</a>
           {% endif %}
           {% if paper.slides %}
           <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
@@ -75,8 +83,8 @@ title: Home
           <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
           {% endif %}
         </p>
-        <p>{{ paper.authors }}</p>
-        <p><i>{{ paper.venue }}</i></p>
+        <!-- <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }}</i></p> -->
         <div class="paper-buttons">
 
         </div>
@@ -85,8 +93,7 @@ title: Home
     </div>
 
     <!-- All PAPERS -->
-    <div class="tab-pane active" id="papers-all">
-      <!-- {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %} -->
+    <!-- <div class="tab-pane active" id="papers-all">
       {% assign papers = site.data.publications.papers %}
       {% for paper in papers %}
       <div class="paper">
@@ -118,7 +125,7 @@ title: Home
       {% endfor %}
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- ========== PROJECTS ========== -->

@@ -1,26 +1,28 @@
 papers:
   - title: "Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation Among Movable Obstacles in Complex Unknown Environments"
     authors: "<b>Botao He</b>, Guofei Chen*, Wenshan Wang, Ji Zhang, Cornelia Fermuller, Yiannis Aloimonos."
-    venue: "Submitted to IROS 2024  "
+    venue: "IROS 2024"
+    website: https://www.far-planner.com/interactive-far-planner
     paper_pdf: https://arxiv.org/abs/2404.07447
     video: https://www.youtube.com/watch?v=5FNN5Us8-2o
     code: https://github.com/Bottle101/Interactive-FAR
-    statsml: y  
+    selected: y  
 
   - title: "Microsaccade-inspired Event Camera for Robotics"
     authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Haojia Li, Yuman Gao, Shaojie Shen, Kaiwei Wang, Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao and Cornelia Fermuller."
-    # authors: "Botao He, et al."
-    venue: "Science Robotics, <b>Accepted, to be released</b>"
-    # paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
-    # video: https://www.youtube.com/watch?v=WYujLePQwB8
-    # code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
-    statsml: y  
+    venue: "Science Robotics"
+    website: https://bottle101.github.io/AMI-EV/
+    paper_pdf: https://www.science.org/doi/10.1126/scirobotics.adj8124
+    preprint: https://arxiv.org/abs/2405.17769
+    video: https://www.youstube.com/watch?v=WYujLePQwB8
+    code: https://zenodo.org/records/10542425
+    selected: y  
 
   - title: "Leveraging an Active Prism to Enhance Feature Detection in Event Cameras"
     authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, Chao Xu and Fei Gao."
     venue: "Technical Report"
     paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
-    statsml: y  
+    selected: n  
 
   - title: "GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation"
     authors: "Qianhao Wang*, <b>Botao He*</b>, Zhiren Xun and Fei Gao."
@@ -28,7 +30,7 @@ papers:
     paper_pdf: /assets/publications/RAL2022_GPA-Teleoperation.pdf
     video: https://www.youtube.com/watch?v=WYujLePQwB8
     code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
-    statsml: y
+    selected: y
 
   - title: "FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event and Depth Sensing"
     authors: "<b>Botao He*</b>, Haojia Li*, Siyuan Wu, Dong Wang, Zhiwei Zhang, Qianli Dong, Chao Xu, and Fei Gao"
@@ -36,14 +38,14 @@ papers:
     paper_pdf: /assets/publications/IROS2021_FDV.pdf
     video: https://www.youtube.com/watch?v=QPpwppeE_x0
     code: https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision
-    statsml: y
+    selected: y
 
   - title: "Whole-Body Real-Time Motion Planning for Multicopters"
     authors: "Shaohui Yang, <b>Botao He</b>, Zhepei Wang, Chao Xu, and Fei Gao"
     venue: "IEEE International Conference on Robotics and Automation (ICRA 2021)"
     paper_pdf: /assets/publications/ICRA2021_Whole_body.pdf
     video: https://www.youtube.com/watch?v=tkhN6Xrxluk
-    statsml: y
+    selected: n
 
 
 
