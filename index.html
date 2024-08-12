@@ -2,6 +2,79 @@
 layout: default
 title: Home
 ---
+
+<head>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+  /* Design Credits: Jon Barron and Deepak Pathak and Abhishek Kar and Saurabh Gupta*/
+  a {
+  color: #1772d0;
+  text-decoration:none;
+  }
+  a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+  body,td,th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400
+  }
+  heading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 19px; /* 19 */
+    font-weight: 600 /* 1000 */
+  }
+  hr
+  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  strong {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600 /* 800 */
+  }
+  strongred {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    color: 'red' ;
+    font-size: 16px
+  }
+  sectionheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600
+  }
+  pageheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 400
+  }
+  .ImageBorder
+  {
+      border-width: 1px;
+      border-color: Black;
+  }
+  </style>
+  <link rel="shortcut icon" href="images/apple-touch-ri-logo-white-120x120.png">
+  <title>Botao He</title>
+  <meta name="Botao He's Homepage" http-equiv="Content-Type" content="Botao He's Homepage">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+  <!-- Start : Google Analytics Code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+    </script>
+  <!-- End : Google Analytics Code -->
+  <!-- Scramble Script by Jeff Donahue -->
+  <script src="js/scramble.js"></script>
+</head>
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
@@ -56,44 +129,60 @@ title: Home
 
   <div class="tab-content">
 
+    
     <div class="tab-pane active" id="papers-sel">
       {% assign papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in papers %}
-      <div class="paper">
-        <p class="title"><b>{{ paper.title }}</b>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-          {% if paper.website %}
-          <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
-          {% endif %}
-          {% if paper.paper_pdf %}
-          <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-          {% endif %}
-          {% if paper.preprint %}
-          <a class="button" href="{{ paper.preprint | prepend: site.baseurl }}" target="_blank">Pre-print</a>
-          {% endif %}
-          {% if paper.slides %}
-          <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-          {% endif %}
-          {% if paper.poster %}
-          <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-          {% endif %}
-          {% if paper.video %}
-          <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-          {% endif %}
-          {% if paper.code %}
-          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-          {% endif %}
-        </p>
-        <!-- <p>{{ paper.authors }}</p>
-        <p><i>{{ paper.venue }}</i></p> -->
-        <div class="paper-buttons">
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        {% for paper in papers %}
+        <tr>
+          <td width="40%" valign="top" align="center"><a href="{{ paper.website }}">
+          <video playsinline autoplay loop muted src="{{ paper.video }}" poster="{{ paper.image }}" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+          </a></td>
+          <td width="60%" valign="top">
+            {% if paper.website %}
+            <p><a href="{{ paper.website }}" target="_blank">
+              <heading>{{ paper.title }}</heading></a><br>
+              {{ paper.authors }}  <br>
+              {{ paper.venue }}<br>
+            </p>
+            {% else %}
+            <p>
+              <heading>{{ paper.title }}</heading><br>
+              {{ paper.authors }}  <br>
+              {{ paper.venue }}<br>
+            </p>
+            {% endif %}
 
+            <div class="paper">
+              {% if paper.website %}
+              <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
+              {% endif %}
+              {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              {% endif %}
+              {% if paper.preprint %}
+              <a class="button" href="{{ paper.preprint | prepend: site.baseurl }}" target="_blank">Pre-print</a>
+              {% endif %}
+              {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
+              {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
+              {% if paper.video_link %}
+              <a class="button" href="{{ paper.video_link }}" target="_blank">Video</a>
+              {% endif %}
+              {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+              <div class="paper-buttons">
+          </td>
+
+          </div>
         </div>
-      </div>
-      {% endfor %}
+        {% endfor %}
+      </table>
     </div>
-
     <!-- All PAPERS -->
     <!-- <div class="tab-pane active" id="papers-all">
       {% assign papers = site.data.publications.papers %}
@@ -130,10 +219,34 @@ title: Home
 </div> -->
 
 
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Experiences</h4>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+        {% else %}
+        <div class="direction-r">
+          {% endif %}
+          <div class="flag-wrapper">
+            <span class="flag">{{ exp.place }}</span>
+            <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+          </div>
+          <div class="desc"><b>{{ exp.title }}</b> <br /> {{ exp.subtitle }}</div>
+        </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
 <!-- ========== PROJECTS ========== -->
 
 <div class="docs-section" id="projects">
-  <h4>Projects</h4>
+  <h4>Robot Systems I Built with Friends</h4>
 
   <!-- <ul class="tab-nav">
     <li>
@@ -218,7 +331,7 @@ title: Home
 
 
 
-<div class="docs-section" id="awards">
+<!-- <div class="docs-section" id="awards">
   <h4>Awards</h4>
   {% assign awards = site.data.awards.awards %}
   {% for awards in awards %}
@@ -226,7 +339,7 @@ title: Home
     <p class="title">{{ awards.name }}, {{ awards.title }}, {{ awards.institute }}, {{ awards.time }}</p>
   </div>
   {% endfor %}
-</div>
+</div> -->
 
 <!-- <h4>Professional Activities</h4>
 
@@ -293,33 +406,6 @@ title: Home
   </div>
 </div>
 --->
-
-
-
-
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Experiences</h4>
-
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-        {% else %}
-        <div class="direction-r">
-          {% endif %}
-          <div class="flag-wrapper">
-            <span class="flag">{{ exp.place }}</span>
-            <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-          </div>
-          <div class="desc"><b>{{ exp.title }}</b> <br /> {{ exp.subtitle }}</div>
-        </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
 
 
 <div class="docs-section" id="ack">

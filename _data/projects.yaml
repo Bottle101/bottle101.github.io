@@ -1,24 +1,30 @@
 projects:
-  - title: "Texture-enhanced Event Camera"
+  - title: "AirDev: Aerial Autonomy Development Environment"
+    subtitle: "A full-stack autonomy development environment for aerial robots. Support 30+ large-scale environments with multiple sensor setups."
+    thumbnail: "assets/projects/AirDev/cover.png"
+    url: "https://www.far-planner.com/"
+    selected: y
+
+  - title: "Microsaccade-inspired Event Camera"
     subtitle: "A systematic solution that makes event camera maintain rich and stable texture information."
     thumbnail: "assets/projects/Report2022_RotateCam/cover.png"
     url: "/assets/publications/Report_RotatingWedgePrimEventCam.pdf"
     selected: y
 
-  - title: "Advanced Pilot Assistance System (APAS)."
+  - title: "Gaze-enhanced Advanced Pilot Assistance System"
     subtitle: "A gaze enhanced perception-aware assistive teleoperation framework, making drone operation easy for everyone."
     thumbnail: "assets/projects/RAL2022/cover.png"
     url: "https://www.youtube.com/watch?v=WYujLePQwB8"
     selected: y
 
-  - title: "Event-based Perception"
+  - title: "Event-based Dynamic Objact Avoidance System"
     subtitle: "Perception involving depth and event sensing, with low latency and high precision."
     thumbnail: "assets/projects/IROS2021_FDV/cover.png"
     url: "https://www.youtube.com/watch?v=QPpwppeE_x0"
     selected: y
 
-  - title: "Whole-body Motion Planning for UAVS"
-    subtitle: "A full-body, optimization-based, yaw-considered real-time motion planning framework for aerial robots. The time consumption and memory usage of our method surpasses others."
+  - title: "UAV Agile Flight System"
+    subtitle: "A full-body, optimization-based, yaw-considered real-time motion planning framework for aerial robots."
     thumbnail: "assets/projects/ICRA2021_Whole_body/cover.jpg"
     url: "https://www.youtube.com/watch?v=tkhN6Xrxluk"
     selected: y
@@ -33,7 +39,7 @@ projects:
     subtitle: "An autonumous inspection UAV system. It is feasible of our system to save people from inspecting in dangerous places like cliffs!"
     thumbnail: "assets/projects/2020_m600/cover.jpg"
     url: "projects/UnderConstruction.html"
-    selected: y
+    selected: n
 
   - title: "Electromagnetic Throw System"
     subtitle: "A throw system that is able to automunously find the target, estimate target's depth and calculate parabola."
@@ -41,7 +47,7 @@ projects:
     url: "projects/UnderConstruction.html"
     selected: y
 
-  - title: "Challenge Arena Fighting"
+  - title: "Challenge Arena Fighting Robot"
     subtitle: "An autonomous robot with ability to move over terrains, detect and attack the opponent autonomously."
     thumbnail: "assets/projects/2018_fightbot/cover.png"
     url: "projects/UnderConstruction.html"

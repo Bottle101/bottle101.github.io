@@ -4,7 +4,9 @@ papers:
     venue: "IROS 2024"
     website: https://www.far-planner.com/interactive-far-planner
     paper_pdf: https://arxiv.org/abs/2404.07447
-    video: https://www.youtube.com/watch?v=5FNN5Us8-2o
+    image: assets/publications/IROS2024_IFAR/cover.jpg
+    video: assets/publications/IROS2024_IFAR/vid.mp4
+    video_link: https://www.youtube.com/watch?v=5FNN5Us8-2o
     code: https://github.com/Bottle101/Interactive-FAR
     selected: y  
 
@@ -13,8 +15,9 @@ papers:
     venue: "Science Robotics"
     website: https://bottle101.github.io/AMI-EV/
     paper_pdf: https://www.science.org/doi/10.1126/scirobotics.adj8124
+    image: assets/publications/SR2024/cover.jpeg
     preprint: https://arxiv.org/abs/2405.17769
-    video: https://www.youstube.com/watch?v=WYujLePQwB8
+    video_link: https://www.youstube.com/watch?v=WYujLePQwB8
     code: https://zenodo.org/records/10542425
     selected: y  
 
@@ -22,13 +25,16 @@ papers:
     authors: "<b>Botao He</b>, Ze Wang, Yuan Zhou, Jingxi Chen, Chahat Deep Singh, Cornelia Fermuller, Yiannis Aloimonos, Chao Xu and Fei Gao."
     venue: "Technical Report"
     paper_pdf: /assets/publications/Report_RotatingWedgePrimEventCam.pdf
+    image: assets/publications/Report2022_RotateCam/cover.png
     selected: n  
 
   - title: "GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation"
     authors: "Qianhao Wang*, <b>Botao He*</b>, Zhiren Xun and Fei Gao."
     venue: "IEEE Robotics and Automation Letters (RA-L) and IEEE International Conference on Robotics and Automation (ICRA 2022)."
     paper_pdf: /assets/publications/RAL2022_GPA-Teleoperation.pdf
-    video: https://www.youtube.com/watch?v=WYujLePQwB8
+    website: https://www.youtube.com/watch?v=WYujLePQwB8
+    image: assets/publications/RAL2022/cover.png
+    video_link: https://www.youtube.com/watch?v=WYujLePQwB8
     code: https://github.com/ZJU-FAST-Lab/GPA-Teleoperation
     selected: y
 
@@ -36,7 +42,10 @@ papers:
     authors: "<b>Botao He*</b>, Haojia Li*, Siyuan Wu, Dong Wang, Zhiwei Zhang, Qianli Dong, Chao Xu, and Fei Gao"
     venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)."
     paper_pdf: /assets/publications/IROS2021_FDV.pdf
-    video: https://www.youtube.com/watch?v=QPpwppeE_x0
+    image: assets/publications/IROS2021_FDV/cover.png
+    # video: assets/publications/IROS2021_FDV/vid.m4v
+    video_link: https://www.youtube.com/watch?v=QPpwppeE_x0
+    website: https://www.youtube.com/watch?v=QPpwppeE_x0
     code: https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision
     selected: y
 
@@ -44,7 +53,8 @@ papers:
     authors: "Shaohui Yang, <b>Botao He</b>, Zhepei Wang, Chao Xu, and Fei Gao"
     venue: "IEEE International Conference on Robotics and Automation (ICRA 2021)"
     paper_pdf: /assets/publications/ICRA2021_Whole_body.pdf
-    video: https://www.youtube.com/watch?v=tkhN6Xrxluk
+    video: assets/publications/ICRA2021_Whole_body/vid.m4v
+    video_link: https://www.youtube.com/watch?v=tkhN6Xrxluk
     selected: n
 
 
