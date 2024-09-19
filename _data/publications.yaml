@@ -5,7 +5,7 @@ papers:
     website: https://www.far-planner.com/air-far-planner
     paper_pdf: https://arxiv.org/abs/2409.11188
     # image: assets/publications/ICRA
-    video: assets/publications/ICRA2025_AirFAR/airfar.m4v
+    video: assets/publications/ICRA2025_AirFAR/media.mp4
     # video_link: https://www.youtube.com/watch?v=5FNN5Us8-2o
     code: https://github.com/Bottle101/Air-FAR
     selected: y  
