@@ -1,6 +1,17 @@
 papers:
   - title: "Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation Among Movable Obstacles in Complex Unknown Environments"
-    authors: "<b>Botao He</b>, Guofei Chen*, Wenshan Wang, Ji Zhang, Cornelia Fermuller, Yiannis Aloimonos."
+    authors: "<b>Botao He</b>, Guofei Chen, Cornelia Fermuller, Yiannis Aloimonos, Ji Zhang."
+    venue: "Submitted to ICRA 2025"
+    website: https://www.far-planner.com/air-far-planner
+    paper_pdf: https://arxiv.org/abs/2409.11188
+    # image: assets/publications/ICRA
+    video: assets/publications/ICRA2025_AirFAR/airfar.m4v
+    # video_link: https://www.youtube.com/watch?v=5FNN5Us8-2o
+    code: https://github.com/Bottle101/Air-FAR
+    selected: y  
+
+  - title: "Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation Among Movable Obstacles in Complex Unknown Environments"
+    authors: "<b>Botao He</b>*, Guofei Chen*, Wenshan Wang, Ji Zhang, Cornelia Fermuller, Yiannis Aloimonos."
     venue: "IROS 2024"
     website: https://www.far-planner.com/interactive-far-planner
     paper_pdf: https://arxiv.org/abs/2404.07447
