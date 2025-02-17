@@ -114,22 +114,10 @@ title: Home
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Selected Publications</h4>
-  For all my publications, please check my <a href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&hl=en&oi=ao"
+  All publications on <a href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&hl=en&oi=ao"
     target="_blank">Google Scholar</a>.
 
-  <!-- <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p> -->
-
-  <!-- <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>    
-    <li><div class="button" data-ref="#papers-ML">Stats+ML</div></li>
-    <li><div class="button" data-ref="#papers-NLP">NLP</div></li>
-    <li><div class="button" data-ref="#papers-Bio">Comp Bio</div></li>
-  </ul> -->
-
   <div class="tab-content">
-
-    
     <div class="tab-pane active" id="papers-sel">
       {% assign papers = site.data.publications.papers | where: "selected", "y" %}
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -183,41 +171,6 @@ title: Home
         {% endfor %}
       </table>
     </div>
-    <!-- All PAPERS -->
-    <!-- <div class="tab-pane active" id="papers-all">
-      {% assign papers = site.data.publications.papers %}
-      {% for paper in papers %}
-      <div class="paper">
-        <p class="title"><b>{{ paper.title }}</b></p>
-        <p>{{ paper.authors }}</p>
-        <p><i>{{ paper.venue }}</i></p>
-        <div class="paper-buttons">
-          {% if paper.paper_pdf %}
-          <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-          {% endif %}
-
-          {% if paper.slides %}
-          <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-          {% endif %}
-
-          {% if paper.poster %}
-          <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-          {% endif %}
-
-          {% if paper.video %}
-          <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-          {% endif %}
-
-          {% if paper.code %}
-          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div> -->
-
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
