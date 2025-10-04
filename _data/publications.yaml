@@ -1,4 +1,26 @@
 papers:
+  - title: "Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis"
+    authors: "Yu Chen, <b>Botao He</b>, Yuemin Mao, Arthur Jakobsson, Jeffrey Ke, Yiannis Aloimonos, Guanya Shi, Howie Choset, Jiayuan Mao, Jeffrey Ichnowski."
+    venue: "Under review"
+    # website: https://www.far-planner.com/air-far-planner
+    # paper_pdf: https://arxiv.org/abs/2509.12747
+    # image: assets/publications/ICRA
+    video: assets/publications/ICRA2026_Game4Grasp/media.mp4
+    video_link: https://drive.google.com/file/d/1HAm3qmWnqiniakEUCZ0z-Hs3hpvN9V7r/view?usp=sharing
+    # code: https://github.com/Bottle101/Air-FAR
+    selected: y  
+
+  - title: "NavMoE: Hybrid Model- and Learning-based Traversability Estimation for Local Navigation via Mixture of Experts"
+    authors: "<b>Botao He</b>*, Amir Hossein Shahidzadeh*, Yu Chen*, Jiayi Wu, Tianrui Guan, Guofei Chen, Dinesh Manocha, Howie Choset, Glen Chou, Cornelia Fermüller, Yiannis Aloimonos."
+    venue: "Under review"
+    # website: https://www.far-planner.com/air-far-planner
+    paper_pdf: https://arxiv.org/abs/2509.12747
+    # image: assets/publications/ICRA
+    video: assets/publications/ICRA2026_NavMoE/media.m4v
+    video_link: https://drive.google.com/file/d/1-H0vj1JBEh2B7uT_bEm33fvyphRuYj3n/view?usp=sharing
+    # code: https://github.com/Bottle101/Air-FAR
+    selected: y  
+
   - title: "Air-FAR: Fast and Adaptable Routing for Aerial Navigation in Large-scale Complex Unknown Environments"
     authors: "<b>Botao He</b>, Guofei Chen, Cornelia Fermuller, Yiannis Aloimonos, Ji Zhang."
     venue: "ICRA 2025"
