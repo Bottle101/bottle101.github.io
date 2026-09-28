@@ -1,371 +1,608 @@
----
-layout: default
-title: Home
----
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-  /* Design Credits: Jon Barron and Deepak Pathak and Abhishek Kar and Saurabh Gupta*/
-  a {
-  color: #1772d0;
-  text-decoration:none;
-  }
-  a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-  }
-  body,td,th {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400
-  }
-  heading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 19px; /* 19 */
-    font-weight: 600 /* 1000 */
-  }
-  hr
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Botao He | Home</title>
+  <meta name="description" content="Homepage of Botao He, a robot learning researcher working on manipulation, navigation, active perception, and robotic systems.">
+  <meta name="author" content="Botao He">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://botao.me/">
+  <link rel="icon" href="/assets/site/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300italic,400,400italic,600,600italic" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site/styles.css">
+  <script src="/assets/site/script.js" defer></script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Botao He">
+  <meta property="og:description" content="Robot learning researcher working on manipulation, navigation, active perception, and robotic systems.">
+  <meta property="og:url" content="https://botao.me/">
+  <meta property="og:image" content="https://botao.me/assets/profile-pics/botao.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <script type="application/ld+json">
   {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Botao He",
+    "url": "https://botao.me/",
+    "image": "https://botao.me/assets/profile-pics/botao.jpg",
+    "email": "mailto:botao@umd.edu",
+    "jobTitle": "PhD Student in Computer Science",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Maryland, College Park"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=9ytS6o8AAAAJ&hl=en",
+      "https://github.com/Bottle101"
+    ]
   }
-  strong {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 600 /* 800 */
-  }
-  strongred {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    color: 'red' ;
-    font-size: 16px
-  }
-  sectionheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 600
-  }
-  pageheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 38px;
-    font-weight: 400
-  }
-  .ImageBorder
-  {
-      border-width: 1px;
-      border-color: Black;
-  }
-  </style>
-  <link rel="shortcut icon" href="images/apple-touch-ri-logo-white-120x120.png">
-  <title>Botao He</title>
-  <meta name="Botao He's Homepage" http-equiv="Content-Type" content="Botao He's Homepage">
-  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
-  <!-- Start : Google Analytics Code -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview');
-    </script>
-  <!-- End : Google Analytics Code -->
-  <!-- Scramble Script by Jeff Donahue -->
-  <script src="js/scramble.js"></script>
+  </script>
 </head>
 
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
-  <p>
-    Welcome! I am currently a CS Ph.D. student at <a href=https://prg.cs.umd.edu/ target="_blank">PRG (Perception and
-      Robotics Group)</a>, University of Maryland - College Park, advised by Prof. <a
-      href=https://scholar.google.com/citations?user=7QmEsOwAAAAJ&hl=en&oi=ao target="_blank">Yiannis Aloimonos</a> and
-    Dr. <a href=https://scholar.google.com/citations?user=0gEOJSEAAAAJ&hl=en&oi=ao target="_blank">Cornelia
-      Fermuller</a>.
-    I am also working with Dr. <a href=https://frc.ri.cmu.edu/~zhangji/ target="_blank">Ji Zhang</a> in CMU.
-    Formerly I was a visiting student in <a href=http://zju-fast.com/ target="_blank">Fast Lab</a>, Zhejiang University
-    (ZJU), advised by Prof. <a href=https://scholar.google.com/citations?user=4RObDv0AAAAJ&hl=en&oi=ao
-      target="_blank">Fei Gao</a>.
-  </p>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <p>
-    My research interests are Interactive Perception & Learning & Motion Planning for Manipulation and Navigation. I am especially interested in systematic solutions that
-    make the robot system actually work in field scenarios.
-    I hope to build a useful robot that can actually improve someone's life.
-  </p>
-
-  <p>
-    I open source most of my research, please check my <a href=https://github.com/Bottle101 target="_blank">Github</a> for more infomation. <br>
-
-    If any repository does not work for you, please report an issue or drop me an email.
-    
-    If it does not work <b>at all</b>, please <b>kick</b> me. 
-    <!-- If you find any repository is useful, please star it. -->
-  </p>
-
-  <p>
-    If you are interested in my research or would like to have a talk, feel free to drop me an email.
-  </p>
-
-</div>
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Selected Publications</h4>
-  All publications on <a href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&hl=en&oi=ao"
-    target="_blank">Google Scholar</a>.
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-sel">
-      {% assign papers = site.data.publications.papers | where: "selected", "y" %}
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        {% for paper in papers %}
-        <tr>
-          <td width="40%" valign="top" align="center"><a href="{{ paper.website }}">
-          <video playsinline autoplay loop muted src="{{ paper.video }}" poster="{{ paper.image }}" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
-          </a></td>
-          <td width="60%" valign="top">
-            {% if paper.website %}
-            <p><a href="{{ paper.website }}" target="_blank">
-              <heading>{{ paper.title }}</heading></a><br>
-              {{ paper.authors }}  <br>
-              {{ paper.venue }}<br>
-            </p>
-            {% else %}
-            <p>
-              <heading>{{ paper.title }}</heading><br>
-              {{ paper.authors }}  <br>
-              {{ paper.venue }}<br>
-            </p>
-            {% endif %}
-
-            <div class="paper">
-              {% if paper.website %}
-              <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
-              {% endif %}
-              {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-              {% endif %}
-              {% if paper.preprint %}
-              <a class="button" href="{{ paper.preprint | prepend: site.baseurl }}" target="_blank">Pre-print</a>
-              {% endif %}
-              {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-              {% endif %}
-              {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-              {% endif %}
-              {% if paper.video_link %}
-              <a class="button" href="{{ paper.video_link }}" target="_blank">Video</a>
-              {% endif %}
-              {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-              {% endif %}
-              <div class="paper-buttons">
-          </td>
-
-          </div>
-        </div>
-        {% endfor %}
-      </table>
-    </div>
-
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Experiences</h4>
-
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-        {% else %}
-        <div class="direction-r">
-          {% endif %}
-          <div class="flag-wrapper">
-            <span class="flag">{{ exp.place }}</span>
-            <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-          </div>
-          <div class="desc"><b>{{ exp.title }}</b> <br /> {{ exp.subtitle }}</div>
-        </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<!-- ========== PROJECTS ========== -->
-
-<div class="docs-section" id="projects">
-  <h4>Robot Systems I Built with Friends</h4>
-
-  <!-- <ul class="tab-nav">
-    <li>
-      <div class="button active" data-ref="#proj-cur">Selected</div>
-    </li>
-    <li>
-      <div class="button" data-ref="#proj-past">All</div>
-    </li>
-  </ul> -->
-
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="#proj-cur">
-
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-      {% assign index_modulo = forloop.index0 | modulo:3 %}
-      {% if index_modulo == 0 %}
+  <div class="container">
+    <header class="header" id="top">
       <div class="row">
-        {% endif %}
-
-        <div class="four columns">
-          <div class="project-container">
-
-            <div class="project-image-container">
-              <a href="{{ project.url }}">
-                <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-              </a>
-            </div>
-
-            <div class="project-caption">
-              <center>
-                <b>{{ project.title }}</b> <br />
-              </center>
-              {{ project.subtitle }}
-            </div>
-
+        <div class="three columns">
+          <div class="profile-picture-frame">
+            <img
+              class="profile-picture"
+              src="/assets/profile-pics/botao.jpg"
+              width="1170"
+              height="1170"
+              alt="Portrait of Botao He">
           </div>
         </div>
 
-        {% if index_modulo == 2 %}
+        <div class="nine columns main-description">
+          <h1>Botao He</h1>
+          <p>Ph.D. student in Computer Science, University of Maryland, College Park</p>
+          <p>Research Intern, Amazon Frontier AI &amp; Robotics Team</p>
+          <p class="header-buttons">
+            <a class="button" href="mailto:botao@umd.edu">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+              <span>Email</span>
+            </a>
+            <a class="button" href="/assets/CV/Botao_He_CV.pdf">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 2.5h8l4 4v15H6z"></path>
+                <path d="M14 2.5v5h5M9 12h6M9 16h6"></path>
+              </svg>
+              <span>CV</span>
+            </a>
+            <a class="button" href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m2.5 9 9.5-5 9.5 5-9.5 5z"></path>
+                <path d="M6.5 11.2v5.1c2.8 2.2 8.2 2.2 11 0v-5.1M21.5 9v6"></path>
+              </svg>
+              <span>Google Scholar</span>
+            </a>
+            <a class="button" href="https://github.com/Bottle101" target="_blank" rel="noopener noreferrer">
+              <svg class="button-icon button-icon-fill" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.5a9.7 9.7 0 0 0-3.1 18.9c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.9.1-.7.4-1.1.7-1.4-2.2-.3-4.6-1.1-4.6-4.8 0-1.1.4-1.9 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.5 1 2.6 0 3.7-2.3 4.5-4.6 4.8.4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5A9.7 9.7 0 0 0 12 2.5z"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </p>
+        </div>
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
 
-    <div class="tab-pane" id="proj-past">
-      {% assign selected_projects = site.data.projects.projects %}
-      {% for project in selected_projects %}
-      {% assign index_modulo = forloop.index0 | modulo:3 %}
-      {% if index_modulo == 0 %}
+      <div class="header-statement">
+        <p class="header-tagline">I build robots that learn through physical interaction, and the real-world systems that make that learning work.</p>
+        <p class="job-note">I am on the job market for full-time research scientist roles in robot learning. Feel free to reach out. <a href="mailto:botao@umd.edu">botao@umd.edu</a></p>
+      </div>
+    </header>
+
+    <div class="navbar-spacer" aria-hidden="true"></div>
+    <nav class="navbar" aria-label="Primary">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#bio">Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#resume">Experiences</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="main">
+      <section class="docs-section" id="bio">
+        <h4>Bio</h4>
+        <p>
+          Welcome! I am a Computer Science PhD student at the
+          <a href="https://prg.cs.umd.edu/" target="_blank" rel="noopener noreferrer">Perception and Robotics Group</a>,
+          University of Maryland, College Park, advised by
+          <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yiannis Aloimonos</a>
+          and
+          <a href="https://scholar.google.com/citations?user=0gEOJSEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Cornelia Fermüller</a>.
+          I am currently a Research Intern at the Amazon Frontier AI &amp;
+          Robotics Team. In 2025, I was a research intern at Honda Research Institute USA.
+        </p>
+        <p>
+          My research focuses on dexterous manipulation and interactive autonomy. I am especially interested in how robots can learn, plan, and adapt through physical interaction with the real world.
+        </p>
+        <p>
+          I open source much of my research. Please visit my
+          <a href="https://github.com/Bottle101" target="_blank" rel="noopener noreferrer">Github</a>
+          or email me if you would like to discuss the work.
+        </p>
+      </section>
+
+      <section class="docs-section" id="publications">
+        <h4>Selected Publications</h4>
+        <p>
+          For a complete publication list, please see
+          <a href="https://scholar.google.com/citations?user=9ytS6o8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
+        </p>
+
+        <table class="publication-table">
+          <tbody>
+            <tr>
+              <td class="publication-media">
+                <video
+                  width="960"
+                  height="540"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  preload="metadata"
+                  poster="/assets/publications/DSP/poster.png"
+                  aria-label="Dexterity from Supervised Play robot cube reorientation">
+                  <source src="/assets/publications/DSP/preview.webm" type="video/webm">
+                  <source src="/assets/publications/DSP/preview.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <span class="paper-heading">Dexterity from Supervised Play</span><br>
+                  <strong>Botao He</strong>, Yiming Dou, Yiannis Aloimonos,
+                  Jitendra Malik, Akash Sharma, Ruoshi Liu.<br>
+                  arXiv coming soon.<br>
+                  <span class="paper-summary">Learn dexterity from minutes of goal-agnostic human play.</span>
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://forceband-emg.github.io/" target="_blank" rel="noopener noreferrer">
+                  <video
+                    width="1200"
+                    height="675"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    preload="metadata"
+                    aria-label="ForceBand wearable sensing system and robot manipulation results">
+                    <source src="https://tx-leo.github.io/images/ForceBand.mp4" type="video/mp4">
+                    <source src="/assets/publications/ForceBand/overview.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://forceband-emg.github.io/" target="_blank" rel="noopener noreferrer">ForceBand: Learning Forceful Manipulation with sEMG</a><br>
+                  <strong>Botao He</strong>, Zhi Wang, Linna Kuang, Ishaan Ghosh,
+                  Jitendra Malik, Cornelia Fermüller, Tingfan Wu, Jiayuan Mao,
+                  Ruoshi Liu, Haozhi Qi, Yiannis Aloimonos.<br>
+                  CoRL 2026.<br>
+                  <span class="paper-summary">Bring force into human data with EMG, for forceful manipulation.</span>
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://forceband-emg.github.io/" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a class="button" href="https://arxiv.org/abs/2606.26093" target="_blank" rel="noopener noreferrer">Paper</a>
+                  <a class="button" href="https://github.com/Bottle101/ForceBand" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://www.cs.umd.edu/~edessale/feel" target="_blank" rel="noopener noreferrer">
+                  <video
+                    width="1920"
+                    height="1080"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    preload="metadata"
+                    aria-label="FEEL multimodal egocentric video with calibrated hand-force HUD">
+                    <source src="https://www.cs.umd.edu/~edessale/hud_all_participants_10x20_calibrated/Kitchen/P10/P10_both_hands_880.4s_900.4s_hud.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://www.cs.umd.edu/~edessale/feel" target="_blank" rel="noopener noreferrer">FEEL (Force-Enhanced Egocentric Learning): A Dataset for Physical Action Understanding</a><br>
+                  Eadom Dessalene, <strong>Botao He</strong>, Michael Maynord,
+                  Yonatan Tussa, Pavan Mantripragada, Yianni Karabatis,
+                  Nirupam Roy, Yiannis Aloimonos.<br>
+                  ECCV 2026, <strong class="publication-highlight">Long Oral (25/10,473 submissions)</strong>.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://www.cs.umd.edu/~edessale/feel" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a class="button" href="https://arxiv.org/abs/2603.15847" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://humanego-ai.github.io/" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://tx-leo.github.io/images/HumanEgo.gif"
+                    width="1200"
+                    height="675"
+                    loading="lazy"
+                    alt="HumanEgo learning pipeline from human video to robot behavior">
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://humanego-ai.github.io/" target="_blank" rel="noopener noreferrer">HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos</a><br>
+                  Zhi Wang, <strong>Botao He</strong>, Kelin Yu, Seungjae Lee,
+                  Ruohan Gao, Furong Huang, Yiannis Aloimonos.<br>
+                  Preprint. <br>
+                  IROS 2026 WORLDS Workshop <strong class="publication-highlight">Best Paper</strong>.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://humanego-ai.github.io/" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a class="button" href="https://arxiv.org/abs/2605.24934" target="_blank" rel="noopener noreferrer">Paper</a>
+                  <a class="button" href="https://github.com/TX-Leo/HumanEgo" target="_blank" rel="noopener noreferrer">Code</a>
+                  <a class="button" href="https://huggingface.co/datasets/Leo-TX/HumanEgo" target="_blank" rel="noopener noreferrer">Data</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://www.far-planner.com/interactive-far-planner" target="_blank" rel="noopener noreferrer">
+                  <video
+                    width="1200"
+                    height="692"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    preload="metadata"
+                    poster="/assets/publications/IROS2024_IFAR/poster.jpg"
+                    aria-label="Interactive-FAR robot navigation among movable obstacles">
+                    <source src="/assets/publications/IROS2024_IFAR/vid.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://www.far-planner.com/interactive-far-planner" target="_blank" rel="noopener noreferrer">Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation among Movable Obstacles in Complex Unknown Environments</a><br>
+                  <strong>Botao He*</strong>, Guofei Chen*, Wenshan Wang, Ji Zhang,
+                  Cornelia Fermüller, Yiannis Aloimonos.<br>
+                  IROS, 2024.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://www.far-planner.com/interactive-far-planner" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a class="button" href="https://arxiv.org/abs/2404.07447" target="_blank" rel="noopener noreferrer">Paper</a>
+                  <a class="button" href="https://github.com/Bottle101/Interactive-FAR" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://www.science.org/doi/10.1126/scirobotics.adj8124" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="/assets/publications/SR2024/cover.jpeg"
+                    width="1573"
+                    height="951"
+                    loading="lazy"
+                    alt="Microsaccade-inspired event camera and reconstructed scene">
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://www.science.org/doi/10.1126/scirobotics.adj8124" target="_blank" rel="noopener noreferrer">Microsaccade-Inspired Event Camera for Robotics</a><br>
+                  <strong>Botao He</strong>, Ze Wang, Yuan Zhou, Jingxi Chen,
+                  Chahat Deep Singh, Haojia Li, Yuman Gao, Shaojie Shen, Kaiwei Wang,
+                  Yanjun Cao, Chao Xu, Yiannis Aloimonos, Fei Gao, Cornelia Fermüller.<br>
+                  Science Robotics, 2024.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://www.science.org/doi/10.1126/scirobotics.adj8124" target="_blank" rel="noopener noreferrer">Paper</a>
+                  <a class="button" href="https://arxiv.org/abs/2405.17769" target="_blank" rel="noopener noreferrer">Pre-print</a>
+                  <a class="button" href="https://zenodo.org/records/10542425" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://arxiv.org/abs/2509.12747" target="_blank" rel="noopener noreferrer">
+                  <video
+                    width="1200"
+                    height="675"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    preload="metadata"
+                    poster="/assets/publications/ICRA2026_NavMoE/poster.jpg"
+                    aria-label="NavMoE traversability estimation and local navigation system">
+                    <source src="/assets/publications/ICRA2026_NavMoE/media.m4v" type="video/mp4">
+                  </video>
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://arxiv.org/abs/2509.12747" target="_blank" rel="noopener noreferrer">NavMoE: Hybrid Model- and Learning-based Traversability Estimation for Local Navigation via Mixture of Experts</a><br>
+                  <strong>Botao He*</strong>, Amir Hossein Shahidzadeh*, Yu Chen*,
+                  Jiayi Wu, Tianrui Guan, Guofei Chen, Dinesh Manocha, Howie Choset,
+                  Glen Chou, Cornelia Fermüller, Yiannis Aloimonos.<br>
+                  ICRA, 2025.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://arxiv.org/abs/2509.12747" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="publication-media">
+                <a href="https://www.far-planner.com/air-far-planner" target="_blank" rel="noopener noreferrer">
+                  <video
+                    width="748"
+                    height="438"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    preload="metadata"
+                    poster="/assets/publications/ICRA2025_AirFAR/poster.jpg"
+                    aria-label="Air-FAR aerial navigation system in a complex environment">
+                    <source src="/assets/publications/ICRA2025_AirFAR/media.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </td>
+              <td class="publication-details">
+                <p>
+                  <a class="paper-heading" href="https://www.far-planner.com/air-far-planner" target="_blank" rel="noopener noreferrer">Air-FAR: Fast and Adaptable Routing for Aerial Navigation in Large-scale Complex Unknown Environments</a><br>
+                  <strong>Botao He</strong>, Guofei Chen, Cornelia Fermüller,
+                  Yiannis Aloimonos, Ji Zhang.<br>
+                  ICRA, 2025.
+                </p>
+                <div class="paper">
+                  <a class="button" href="https://www.far-planner.com/air-far-planner" target="_blank" rel="noopener noreferrer">Website</a>
+                  <a class="button" href="https://arxiv.org/abs/2409.11188" target="_blank" rel="noopener noreferrer">Paper</a>
+                  <a class="button" href="https://github.com/Bottle101/Air-FAR" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="equal-contribution">* Equal contribution.</p>
+      </section>
+
+      <section class="docs-section" id="resume">
+        <h4>Experiences</h4>
+
+        <ul class="timeline">
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Amazon Frontier AI &amp; Robotics Team</span>
+                <span class="time-wrapper"><span class="time">Jan 2026 – Present</span></span>
+              </div>
+              <div class="desc"><strong>Research Intern</strong><br>Robot learning for force-aware dexterous manipulation.</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">University of Maryland</span>
+                <span class="time-wrapper"><span class="time">Aug 2022 – Present</span></span>
+              </div>
+              <div class="desc"><strong>PhD Student in Computer Science</strong><br>Perception and Robotics Group.</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Honda Research Institute USA</span>
+                <span class="time-wrapper"><span class="time">May – Aug 2025</span></span>
+              </div>
+              <div class="desc"><strong>Research Intern</strong><br>Robust motion prediction and mixture-of-experts navigation.</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Carnegie Mellon University</span>
+                <span class="time-wrapper"><span class="time">2023 – 2025</span></span>
+              </div>
+              <div class="desc"><strong>Research Collaboration</strong><br>Interactive navigation and field autonomy with Ji Zhang.</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Zhejiang University</span>
+                <span class="time-wrapper"><span class="time">Feb 2020 – Aug 2022</span></span>
+              </div>
+              <div class="desc"><strong>Visiting Student</strong><br>FAST Lab, advised by Fei Gao.</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Nanjing Institute of Technology</span>
+                <span class="time-wrapper"><span class="time">Sep 2018 – Jul 2022</span></span>
+              </div>
+              <div class="desc"><strong>B.Eng. in Robotics</strong></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="projects">
+        <h4>Robot Systems I Built with Friends</h4>
+
+        <div class="row">
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://forceband-emg.github.io/" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/projects/ForceBand/hardware.jpg" width="720" height="450" loading="lazy" alt="ForceBand wrist-band sensing hardware">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">ForceBand</div>
+                Wearable sEMG hardware for capturing muscle and motion signals during forceful manipulation.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://www.far-planner.com/development-environment" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/projects/AirDev/cover.jpg" width="1200" height="634" loading="lazy" alt="AirDev aerial autonomy development environment">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">AirDev</div>
+                A full-stack aerial autonomy development environment with 29 simulation environments.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://www.far-planner.com/interactive-far-planner" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/publications/IROS2024_IFAR/poster.jpg" width="1200" height="692" loading="lazy" alt="Interactive-FAR navigation system">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">Interactive-FAR</div>
+                Interactive navigation among movable obstacles in complex unknown environments.
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://www.far-planner.com/air-far-planner" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/publications/ICRA2025_AirFAR/poster.jpg" width="748" height="438" loading="lazy" alt="Air-FAR aerial navigation system">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">Air-FAR</div>
+                Fast and adaptable aerial routing in large-scale complex unknown environments.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://www.science.org/doi/10.1126/scirobotics.adj8124" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/projects/Report2022_RotateCam/cover.png" width="1280" height="960" loading="lazy" alt="Microsaccade-inspired event camera">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">Microsaccade-Inspired Event Camera</div>
+                An actuated sensing system that reveals static scene structure for event cameras.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="https://arxiv.org/abs/2109.04907" target="_blank" rel="noopener noreferrer">
+                  <img class="u-max-full-width" src="/assets/projects/RAL2022/cover.png" width="659" height="475" loading="lazy" alt="GPA-Teleoperation aerial robot system">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">GPA-Teleoperation</div>
+                Gaze-enhanced, perception-aware assistive aerial teleoperation.
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a href="/assets/publications/ICRA2021_Whole_body.pdf">
+                  <img class="u-max-full-width" src="/assets/projects/ICRA2021_Whole_body/cover.jpg" width="405" height="270" loading="lazy" alt="Whole-body multicopter motion planning">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">UAV Agile Flight System</div>
+                Whole-body, optimization-based real-time motion planning for multicopters.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a class="false-link" href="#" aria-disabled="true" tabindex="-1" title="No project page">
+                  <img class="u-max-full-width" src="/assets/projects/2018_quad/cover2.png" width="1129" height="740" loading="lazy" alt="Lightweight quadruped robot">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">Lightweight Quadruped Robot</div>
+                A lightweight quadruped mechanism designed and built during undergraduate study.
+              </div>
+            </article>
+          </div>
+
+          <div class="four columns">
+            <article class="project-container">
+              <div class="project-image-container">
+                <a class="false-link" href="#" aria-disabled="true" tabindex="-1" title="No project page">
+                  <img class="u-max-full-width" src="/assets/projects/2019_cannon/cover.jpg" width="400" height="270" loading="lazy" alt="Electromagnetic robotic throwing system">
+                </a>
+              </div>
+              <div class="project-caption">
+                <div class="project-title">Electromagnetic Throw System</div>
+                An autonomous system for target detection, depth estimation, and projectile planning.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
       <div class="row">
-        {% endif %}
-
-        <div class="four columns">
-          <div class="project-container">
-
-            <div class="project-image-container">
-              <a href="{{ project.url }}">
-                <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-              </a>
-            </div>
-
-            <div class="project-caption">
-              <center>
-                <b>{{ project.title }}</b> <br />
-              </center>
-              {{ project.subtitle }}
-            </div>
-
-          </div>
-        </div>
-
-        {% if index_modulo == 2 %}
+        <div class="four columns">Botao He</div>
+        <div class="four columns"><a href="mailto:botao@umd.edu">botao@umd.edu</a></div>
+        <div class="four columns"><a href="https://github.com/Bottle101" target="_blank" rel="noopener noreferrer">Github</a></div>
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
+    </footer>
   </div>
-
-</div>
-
-
-
-<!-- <div class="docs-section" id="awards">
-  <h4>Awards</h4>
-  {% assign awards = site.data.awards.awards %}
-  {% for awards in awards %}
-  <div class="awards">
-    <p class="title">{{ awards.name }}, {{ awards.title }}, {{ awards.institute }}, {{ awards.time }}</p>
-  </div>
-  {% endfor %}
-</div> -->
-
-<!-- <h4>Professional Activities</h4>
-
-<div class="docs-section" id="awards">
-  <h4>Awards</h4>
-  {% assign awards = site.data.awards.awards %}
-  {% for awards in awards %}
-  <div class="awards">
-    <p class="title">{{ awards.name }}, {{ awards.title }}, {{ awards.institute }}, {{ awards.time }}</p>
-  </div>
-  {% endfor %}
-</div> -->
-
-
-<!-- <div class="docs-section" id="talks">
-  <h4>Talks and slides</h4>
-  {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
-  {% for talk in current_talks %}
-  <div class="talk">
-    <p class="title"><b>{{ talk.name }}</b> ({{ talk.time }}): <a href={{talk.link}} target="_blank">{{ talk.title }}</a></p>
-  </div>
-  {% endfor %}
-</div> -->
-
-
-<!---
-<div class="docs-section" id="people">
-  <h4>Advisees</h4>
-
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#current">Current</div></li>
-    <li><div class="button" data-ref="#former">Former</div></li>
-  </ul>
-
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="current">
-      {% assign current_people = site.data.students.students | where: "category", "current" %}
-      {% for person in current_people %}
-        <div class="paper">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
-          {% if person.current %}
-          <p> {{ person.current }} </p>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="former">
-      {% assign former_people = site.data.students.students | where: "category", "former" %}
-      {% for person in former_people %}
-        <div class="paper">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
-          {% if person.current %}
-          <p> {{ person.current }} </p>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-    
-  </div>
-</div>
---->
-
-
-<div class="docs-section" id="ack">
-  <h4>Acknowledgement</h4>
-  <p>
-    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin
-      Saveski</a>
-  </p>
-
-</div>
+</body>
+</html>

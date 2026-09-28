@@ -1,0 +1,208 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[top=0.58in,bottom=0.58in,left=0.64in,right=0.64in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Helvetica}[Ligatures=TeX]
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+\definecolor{ink}{HTML}{17211B}
+\definecolor{accent}{HTML}{176B53}
+\definecolor{muted}{HTML}{56645D}
+\definecolor{highlight}{HTML}{F394A7}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdfauthor={Botao He},
+  pdftitle={Botao He -- Curriculum Vitae}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.03}
+\setlist[itemize]{leftmargin=1.1em,itemsep=1pt,topsep=1.5pt,parsep=0pt}
+\titleformat{\section}
+  {\normalsize\bfseries\color{ink}}
+  {}
+  {0pt}
+  {}
+  [\vspace{-4pt}\color{accent}\rule{\linewidth}{0.55pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    \textbf{#1} \textcolor{muted}{#2} & \textcolor{muted}{#3} \\
+  \end{tabularx}
+  \vspace{-1.5pt}
+  #4
+  \vspace{1pt}
+}
+
+\newcommand{\pub}[3]{%
+  \item #1 \textit{#2} #3
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+  {\fontsize{25}{27}\selectfont\bfseries\color{ink} Botao He} &
+  \small
+  \href{mailto:botao@umd.edu}{botao@umd.edu}
+  \quad$\cdot$\quad
+  \href{https://botao.me}{botao.me}
+  \quad$\cdot$\quad
+  \href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}
+\end{tabularx}
+\vspace{2pt}
+{\color{accent}\rule{\linewidth}{0.9pt}}
+\vspace{-3pt}
+\section{Research Profile}
+
+I develop robot-learning methods for physical interaction, spanning force-aware
+human demonstrations, play-driven dexterity, and interactive
+navigation. My work combines learning and planning with custom sensing and
+real-robot system validation.
+
+\section{Education}
+
+\entry{University of Maryland, College Park}{— Ph.D. in Computer Science}{Aug.\ 2022--present}{
+  Perception and Robotics Group; advised by Yiannis Aloimonos and Cornelia Ferm\"uller.
+}
+
+\entry{Nanjing Institute of Technology}{— B.Eng. in Robotics}{Sep.\ 2018--Jul.\ 2022}{}
+
+\section{Research \& Industry Experience}
+
+\entry{Amazon Frontier AI \& Robotics Team}{— Research Intern}{Jan.\ 2026--present}{
+  \begin{itemize}
+    \item Developing learning systems for force-aware dexterous manipulation from multimodal human interaction.
+    \item Exploring physics-grounded, interaction-aware video and world models for robot learning.
+    \item Worked on large-scale contact-aware data labeling for robot-learning datasets.
+  \end{itemize}
+}
+
+\entry{Honda Research Institute USA}{— Research Intern}{May--Aug.\ 2025}{
+  Developed robust motion prediction using a trainable mixture of model-based and learned experts.
+}
+
+\entry{Carnegie Mellon University}{— Research collaboration}{May 2023--2025}{
+  Interactive navigation and field autonomy; collaborated with Ji Zhang.
+}
+
+\section{Selected Research \& Systems}
+
+\entry{Dexterity from Supervised Play}{— arXiv coming soon}{}{
+  \textit{Learn dexterity from minutes of goal-agnostic human play.}
+}
+
+\entry{\href{https://forceband-emg.github.io/}{ForceBand}}{— CoRL 2026}{}{
+  \textit{Bring force into human data with EMG, for forceful manipulation.}
+}
+
+\entry{\href{https://www.cs.umd.edu/\string~edessale/feel}{FEEL}}{— force-enhanced egocentric dataset}{}{
+  Co-developed a large-scale dataset pairing egocentric video with calibrated
+  glove-based force measurements, comprising approximately three million
+  synchronized frames of natural kitchen manipulation.
+}
+
+\entry{\href{https://humanego-ai.github.io/}{HumanEgo}}{— learning from short egocentric video}{}{
+  Contributed to methods for transferring human-object interaction into robot
+  behavior from minutes of task video, without requiring paired robot demonstrations;
+  IROS 2026 WORLDS Workshop \textbf{\textcolor{highlight}{Best Paper}}.
+}
+
+\entry{\href{https://www.far-planner.com/interactive-far-planner}{Interactive-FAR}
+  \& \href{https://www.far-planner.com/air-far-planner}{Air-FAR}}{— deployable field autonomy}{}{
+  Built navigation systems for ground and aerial robots operating in complex unknown
+  environments. Interactive-FAR reasons about movable obstacles online; Air-FAR
+  extends fast, adaptable routing to large-scale aerial navigation.
+}
+
+\entry{Microsaccade-Inspired Event Camera}{— sensing hardware and algorithms}{}{
+  Co-designed an actuated event-camera mechanism and computational pipeline that
+  reveals static scene structure while preserving compatibility with established
+  event-based perception methods; published in \textit{Science Robotics}.
+}
+
+\newpage
+\section{Selected Publications}
+
+\small
+\begin{itemize}
+  \pub{\textbf{Botao He}, Yiming Dou, Yiannis Aloimonos, Jitendra Malik, Akash Sharma, Ruoshi Liu.}
+      {Dexterity from Supervised Play.}
+      {arXiv coming soon.}
+
+  \pub{\textbf{Botao He}, Zhi Wang, Linna Kuang, et al.}
+      {ForceBand: Learning Forceful Manipulation with sEMG.}
+      {CoRL 2026. \href{https://forceband-emg.github.io/}{Project}}
+
+  \pub{Eadom Dessalene, \textbf{Botao He}, Michael Maynord, et al.}
+      {FEEL (Force-Enhanced Egocentric Learning): A Dataset for Physical Action Understanding.}
+      {ECCV 2026, \textbf{\textcolor{highlight}{Long Oral (25/10,473 submissions)}}.
+      \href{https://www.cs.umd.edu/\string~edessale/feel}{Project} ·
+      \href{https://arxiv.org/abs/2603.15847}{Paper}}
+
+  \pub{Zhi Wang, \textbf{Botao He}, Kelin Yu, et al.}
+      {HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos.}
+      {IROS 2026 WORLDS Workshop \textbf{\textcolor{highlight}{Best Paper}}.
+      \href{https://humanego-ai.github.io/}{Project}}
+
+  \pub{Yu Chen, \textbf{Botao He}, Yuemin Mao, et al.}
+      {Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis.}
+      {Preprint, 2025.}
+
+  \pub{\textbf{Botao He*}, Amir Hossein Shahidzadeh*, Yu Chen*, et al.}
+      {NavMoE: Hybrid Model- and Learning-based Traversability Estimation for Local Navigation via Mixture of Experts.}
+      {ICRA, 2025.}
+
+  \pub{\textbf{Botao He}, Guofei Chen, Cornelia Ferm\"uller, Yiannis Aloimonos, Ji Zhang.}
+      {Air-FAR: Fast and Adaptable Routing for Aerial Navigation in Large-scale Complex Unknown Environments.}
+      {ICRA, 2025.}
+
+  \pub{\textbf{Botao He*}, Guofei Chen*, Wenshan Wang, et al.}
+      {Interactive-FAR: Interactive, Fast and Adaptable Routing for Navigation among Movable Obstacles in Complex Unknown Environments.}
+      {IROS, 2024.}
+
+  \pub{\textbf{Botao He}, Ze Wang, Yuan Zhou, et al.}
+      {Microsaccade-Inspired Event Camera for Robotics.}
+      {\textit{Science Robotics}, 2024.}
+
+  \pub{Qianhao Wang*, \textbf{Botao He*}, Zhiren Xun, Chao Xu, Fei Gao.}
+      {GPA-Teleoperation: Gaze Enhanced Perception-aware Safe Assistive Aerial Teleoperation.}
+      {IEEE Robotics and Automation Letters 7(2), 2022; presented at ICRA 2022.}
+
+  \pub{\textbf{Botao He*}, Haojia Li*, Siyuan Wu, et al.}
+      {FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event and Depth Sensing.}
+      {IROS, 2021.}
+\end{itemize}
+\normalsize
+
+\textit{* Equal contribution. Full publication record:}
+\href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}.
+
+\section{Technical Skills}
+
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{1.2em}}X@{}}
+Learning & Imitation learning, world models, diffusion policies, multimodal learning, online adaptation \\
+Robotics & Dexterous manipulation, motion planning, navigation, active perception, ROS, Gazebo, AirSim, Unity \\
+Programming & Python, C/C++, MATLAB, Git, Linux \\
+Hardware & Custom sensing, embedded systems, STM32/Arduino, SolidWorks, machining, circuit design \\
+\end{tabularx}
+
+\section{Service \& Recognition}
+
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{1.2em}}X@{}}
+Reviewing & Science Robotics; IEEE TPAMI; IEEE RA-L; IEEE T-ITS; ICRA; IROS; Frontiers in Robotics and AI \\
+Recognition & NeuroPAC Fellowship (2023, 2024); University of Maryland Dean's Fellowship (2022--2023) \\
+\end{tabularx}
+
+\end{document}

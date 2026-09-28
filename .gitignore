@@ -1,0 +1,11 @@
+.DS_Store
+
+# Local source material; intentionally not published.
+CV_Botao_HE/
+assets/publications/Robot_Play (3)-compressed.pdf
+
+# Optional local CV build artifacts.
+assets/CV/*.aux
+assets/CV/*.log
+assets/CV/*.out
+assets/CV/*.toc
