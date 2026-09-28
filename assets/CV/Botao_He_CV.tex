@@ -1,6 +1,6 @@
 \documentclass[11pt,letterpaper]{article}
 
-\usepackage[top=0.58in,bottom=0.58in,left=0.64in,right=0.64in]{geometry}
+\usepackage[top=0.5in,bottom=0.5in,left=0.7in,right=0.7in]{geometry}
 \usepackage{fontspec}
 \setmainfont{Helvetica}[Ligatures=TeX]
 \usepackage{xcolor}
@@ -26,24 +26,28 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\setlength{\tabcolsep}{0pt}
-\renewcommand{\arraystretch}{1.03}
-\setlist[itemize]{leftmargin=1.1em,itemsep=1pt,topsep=1.5pt,parsep=0pt}
+\linespread{1.04}
+\raggedbottom
+\renewcommand{\arraystretch}{1.12}
+\color{ink}
+\setlist[itemize]{leftmargin=1.1em,itemsep=1.5pt,topsep=2pt,parsep=0pt,label={\color{muted}\textbullet}}
+
 \titleformat{\section}
-  {\large\bfseries\color{ink}}
+  {\large\bfseries\color{accent}}
   {}
   {0pt}
   {}
-  [\vspace{-4pt}\color{accent}\rule{\linewidth}{0.55pt}]
-\titlespacing*{\section}{0pt}{7pt}{4pt}
+  [\vspace{2pt}{\color{accent!55}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
 
+% \entry{title}{subtitle}{date}{body}; kept on one page
 \newcommand{\entry}[4]{%
-  \begin{tabularx}{\linewidth}{@{}Xr@{}}
-    \textbf{#1} \textcolor{muted}{#2} & \textcolor{muted}{#3} \\
-  \end{tabularx}
-  \vspace{-1.5pt}
-  #4
-  \vspace{1pt}
+  \par\addvspace{5pt}%
+  \noindent\begin{minipage}{\linewidth}\raggedright
+  \textbf{#1}\ \textcolor{muted}{#2}\nobreak\hfill\penalty50\hskip1em\hbox{}\nobreak\hfill\mbox{\textcolor{muted}{#3}}\par
+  \vspace{1.5pt}%
+  #4\par
+  \end{minipage}\par
 }
 
 \newcommand{\pub}[3]{%
@@ -51,25 +55,23 @@
 }
 
 \begin{document}
+\raggedright
 
-\begin{tabularx}{\linewidth}{@{}Xr@{}}
-  {\fontsize{25}{27}\selectfont\bfseries\color{ink} Botao He} &
-  \small
+{\fontsize{26}{28}\selectfont\bfseries Botao He}\hfill
+{\small
   \href{mailto:botao@umd.edu}{botao@umd.edu}
-  \quad$\cdot$\quad
+  \quad\textcolor{muted}{$\cdot$}\quad
   \href{https://botao.me}{botao.me}
-  \quad$\cdot$\quad
-  \href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}
-\end{tabularx}
-\vspace{2pt}
-{\color{accent}\rule{\linewidth}{0.9pt}}
-\vspace{-3pt}
+  \quad\textcolor{muted}{$\cdot$}\quad
+  \href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}}
+\par\vspace{4pt}
+{\color{accent}\rule{\linewidth}{1pt}}
+\vspace{-6pt}
+
 \section{Research Profile}
 
-I develop robot-learning methods for physical interaction, spanning force-aware
-human demonstrations, play-driven dexterity, and interactive
-navigation. My work combines learning and planning with custom sensing and
-real-robot system validation.
+I build robots that learn through physical interaction, and the real-world systems
+that make that learning work.
 
 \section{Education}
 
@@ -99,28 +101,34 @@ real-robot system validation.
 
 \section{Selected Research \& Systems}
 
-\entry{Dexterity from Supervised Play}{— arXiv coming soon}{}{
-  \textit{Learn dexterity from minutes of goal-agnostic human play.}
+\entry{Dexterity from Supervised Play}{— learn dexterity from minutes of goal-agnostic human play}{}{
+  A framework in which the robot learns a goal-agnostic play policy from minutes of
+  human play, then deploys it to autonomously collect hours of contact-rich
+  interaction data for training an action-conditioned world model. At inference,
+  model-predictive control selects among play-policy action proposals to reach a
+  requested goal, without task-specific demonstrations.
 }
 
-\entry{\href{https://forceband-emg.github.io/}{ForceBand}}{— CoRL 2026}{}{
-  \textit{Bring force into human data with EMG, for forceful manipulation.}
+\entry{\href{https://forceband-emg.github.io/}{\textcolor{ink}{ForceBand}}}{— bring force into human data with EMG, for forceful manipulation}{}{
+  ForceBand is a low-cost, wrist-worn sEMG band that predicts fingertip forces from
+  forearm muscle activity, enabling force-enriched human demonstrations for learning
+  forceful robot manipulation—without any force sensors on the hand.
 }
 
-\entry{\href{https://www.cs.umd.edu/\string~edessale/feel}{FEEL}}{— force-enhanced egocentric dataset}{}{
-  Co-developed a large-scale dataset pairing egocentric video with calibrated
-  glove-based force measurements, comprising approximately three million
-  synchronized frames of natural kitchen manipulation.
+\entry{\href{https://www.cs.umd.edu/\string~edessale/feel}{\textcolor{ink}{FEEL}}}{— force-enhanced egocentric dataset}{}{
+  A large-scale dataset pairing egocentric video with calibrated glove-based force
+  measurements, comprising approximately three million synchronized frames of natural
+  manipulation.
 }
 
-\entry{\href{https://humanego-ai.github.io/}{HumanEgo}}{— learning from short egocentric video}{}{
-  Contributed to methods for transferring human-object interaction into robot
-  behavior from minutes of task video, without requiring paired robot demonstrations;
-  IROS 2026 WORLDS Workshop \textbf{\textcolor{highlight}{Best Paper}}.
+\entry{\href{https://humanego-ai.github.io/}{\textcolor{ink}{HumanEgo}}}{— learning from minutes of human video}{}{
+  A robot-data-free, hardware-agnostic, and data-efficient pipeline that learns
+  robot manipulation policies from minutes of raw human egocentric videos, powered
+  by a flow matching policy with dense auxiliary objectives.
 }
 
-\entry{\href{https://www.far-planner.com/interactive-far-planner}{Interactive-FAR}
-  \& \href{https://www.far-planner.com/air-far-planner}{Air-FAR}}{— deployable field autonomy}{}{
+\entry{\href{https://www.far-planner.com/interactive-far-planner}{\textcolor{ink}{Interactive-FAR}}
+  \& \href{https://www.far-planner.com/air-far-planner}{\textcolor{ink}{Air-FAR}}}{— deployable field autonomy}{}{
   Built navigation systems for ground and aerial robots operating in complex unknown
   environments. Interactive-FAR reasons about movable obstacles online; Air-FAR
   extends fast, adaptable routing to large-scale aerial navigation.
@@ -129,14 +137,12 @@ real-robot system validation.
 \entry{Microsaccade-Inspired Event Camera}{— sensing hardware and algorithms}{}{
   Co-designed an actuated event-camera mechanism and computational pipeline that
   reveals static scene structure while preserving compatibility with established
-  event-based perception methods; published in \textit{Science Robotics}.
+  event-based perception methods.
 }
 
-\newpage
 \section{Selected Publications}
 
-\small
-\begin{itemize}
+\begin{itemize}[itemsep=2pt]
   \pub{\textbf{Botao He}, Yiming Dou, Yiannis Aloimonos, Jitendra Malik, Akash Sharma, Ruoshi Liu.}
       {Dexterity from Supervised Play.}
       {arXiv coming soon.}
@@ -184,14 +190,14 @@ real-robot system validation.
       {FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event and Depth Sensing.}
       {IROS, 2021.}
 \end{itemize}
-\normalsize
+\vspace{4pt}
 
-\textit{* Equal contribution. Full publication record:}
-\href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}.
+{\small\color{muted}\textit{* Equal contribution. Full publication record:}
+\href{https://scholar.google.com/citations?user=9ytS6o8AAAAJ\&hl=en}{Google Scholar}.}
 
 \section{Technical Skills}
 
-\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{1.2em}}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{7.4em}@{}>{\raggedright\arraybackslash}X@{}}
 Learning & Imitation learning, world models, diffusion policies, multimodal learning, online adaptation \\
 Robotics & Dexterous manipulation, motion planning, navigation, active perception, ROS, Gazebo, AirSim, Unity \\
 Programming & Python, C/C++, MATLAB, Git, Linux \\
@@ -200,7 +206,7 @@ Hardware & Custom sensing, embedded systems, STM32/Arduino, SolidWorks, machinin
 
 \section{Service \& Recognition}
 
-\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{1.2em}}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{7.4em}@{}>{\raggedright\arraybackslash}X@{}}
 Reviewing & Science Robotics; IEEE TPAMI; IEEE RA-L; IEEE T-ITS; ICRA; IROS; Frontiers in Robotics and AI \\
 Recognition & NeuroPAC Fellowship (2023, 2024); University of Maryland Dean's Fellowship (2022--2023) \\
 \end{tabularx}
