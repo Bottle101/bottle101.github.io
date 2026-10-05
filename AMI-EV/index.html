@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="A rotating wedge prism in front of an event camera keeps texture visible regardless of camera motion (Science Robotics, 2024).">
+  <meta property="og:title" content="AMI-EV: Microsaccade-inspired Event Camera for Robotics">
+  <meta property="og:description" content="A rotating wedge prism in front of an event camera keeps texture visible regardless of camera motion (Science Robotics, 2024).">
+  <meta property="og:url" content="https://botao.me/AMI-EV/">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="https://botao.me/AMI-EV/static/images/summary.jpg">
+  <meta property="og:image:width" content="2000">
+  <meta property="og:image:height" content="825">
+
+
+  <meta name="twitter:title" content="AMI-EV: Microsaccade-inspired Event Camera for Robotics">
+  <meta name="twitter:description" content="A rotating wedge prism in front of an event camera keeps texture visible regardless of camera motion (Science Robotics, 2024).">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="https://botao.me/AMI-EV/static/images/summary.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="AMI-EV, event camera, microsaccade, neuromorphic vision, robotics, Science Robotics">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AMI-EV: Microsaccade-inspired Event Camera for Robotics (Science Robotics 2024)</title>
+  <link rel="canonical" href="https://botao.me/AMI-EV/">
+  <link rel="icon" href="/assets/site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="static/vendor/fonts/fonts.css">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/vendor/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="static/vendor/jquery/jquery-3.5.1.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+<main>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <p class="back-link"><a href="../">&larr; Botao He</a></p>
+            <h1 class="title is-2 publication-title">Microsaccade-inspired Event Camera for Robotics</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+              <a href="https://botao.me/" target="_blank">Botao He</a><sup>†</sup>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=7iVQ_9sAAAAJ&amp;hl=zh-CN" target="_blank">Ze Wang</a>,</span>
+              <span class="author-block">
+              Yuan Zhou,</span>
+              <span class="author-block">
+              <a href="https://codingrex.github.io/" target="_blank">Jingxi Chen</a>,</span>
+              <span class="author-block">
+              <a href="https://chahatdeep.github.io/" target="_blank">Chahat Deep Singh</a>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=SS9VEvAAAAAJ&amp;hl=zh-CN" target="_blank">Haojia Li</a>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=nepkga0AAAAJ&amp;hl=en" target="_blank">Yuman Gao</a>,</span>
+              <span class="author-block">
+              <a href="https://uav.hkust.edu.hk/group/" target="_blank">Shaojie Shen</a>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=B6xWNvgAAAAJ&amp;hl=zh-CN" target="_blank">Kaiwei Wang</a>,</span>
+              <span class="author-block">
+              Yanjun Cao,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=IOCO-YQAAAAJ&amp;hl=en" target="_blank">Chao Xu</a>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&amp;hl=en" target="_blank">Yiannis Aloimonos</a>,</span>
+              <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&amp;hl=zh-CN" target="_blank">Fei Gao</a><sup>†</sup>, and</span>
+              <span class="author-block">
+              <a href="https://users.umiacs.umd.edu/~fermulcm/" target="_blank">Cornelia Fermüller</a><sup>†</sup></span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Authors</small></span>
+                  </div>
+
+                  <p class="is-size-5 publication-venue"><em>Science Robotics</em> 9(90), eadj8124 (2024)</p>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- sr PDF link -->
+                      <span class="link-block">
+                        <a href="https://www.science.org/doi/10.1126/scirobotics.adj8124" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8Z"/><path d="M14 2.5V8h5.5"/></svg>
+                        </span>
+                        <span>Paper (Science Robotics)</span>
+                      </a>
+                    </span>
+                        <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2405.17769" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8Z"/><path d="M14 2.5V8h5.5"/></svg>
+                      </span>
+                      <span>Pre-print</span>
+                    </a>
+                  </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://www.youtube.com/watch?v=vKmt9vatZYU" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="m10 8.5 5.5 3.5-5.5 3.5Z"/></svg>
+                      </span>
+                      <span>Video (YouTube)</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://www.bilibili.com/video/BV1qU411d7p2/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="m10 8.5 5.5 3.5-5.5 3.5Z"/></svg>
+                    </span>
+                    <span>Video (Bilibili)</span>
+                  </a>
+                </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://zenodo.org/records/10542425" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <!-- <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span> -->
+                    <span>Open Source</span>
+                  </a>
+                </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">System Overview</h2>
+<div style="text-align: center;">
+  <img src="static/images/system_overview.png" alt="sys" width="1280" height="720">
+</div>
+</div>
+</div>
+</section> -->
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="static/videos/posters/1.jpg" id="teaser-video" controls muted loop playsinline preload="none">
+        <source src="static/videos/1.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Our AMI-EV makes event cameras see stable texture.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<div style="text-align: center;">
+  <img src="static/images/summary.jpg" alt="RGB camera, standard event camera, and AMI-EV compared on (A) a low-level task, corner detection on a star pattern, and (B) a high-level task, human pose estimation at 25, 250, and 1500 fps" width="960" height="396" loading="lazy" decoding="async">
+  <h2 class="subtitle has-text-centered">
+    AMI-EV can achieve robust performance in low-level and high-level vision tasks that both RGB and event cameras fail to deliver.
+  </h2>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Neuromorphic vision sensors or event cameras have made the visual perception of extremely low reaction time possible, opening new avenues for high-dynamic robotics applications. These event cameras’ output is dependent on both motion and texture. However, the event camera fails to capture object edges that are parallel to the camera motion. This is a problem intrinsic to the sensor and therefore challenging to solve algorithmically. Human vision deals with perceptual fading using the active mechanism of small involuntary eye movements – the most prominent ones called microsaccades. By moving the eyes constantly and slightly during fixation, microsaccades can substantially maintain texture stability and persistence. Inspired by microsaccades, we designed an event-based perception system capable of simultaneously maintaining low reaction time and stable texture. In this design, a rotating wedge prism was mounted in front of the aperture of an event camera to redirect light and trigger events. The geometrical optics of the rotating wedge prism allows for algorithmic compensation of the additional rotational motion, resulting in a stable texture appearance and high informational output independent of external motion. The hardware device and software solution are integrated into a system, which we call Artificial MIcrosaccade-enhanced EVent camera (AMI-EV). Benchmark comparisons validate the superior data quality of AMI-EV recordings in scenarios where both standard cameras and event cameras fail to deliver. Various real-world experiments demonstrate the potential of the system to facilitate robotics perception both for low-level and high-level vision tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">Introduction</h2>
+<div style="text-align: center;">
+  <div class="subtitle has-text-centered">
+    <video poster="static/videos/posters/intro.jpg" id="intro-video" controls preload="none" width="1280" height="640">
+      <source src="static/videos/intro.mp4"
+      type="video/mp4">
+    </video>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Data-quality Improvement on Different Event Representations</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop  width="960" >
+            <source src="static/videos/S2_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop  width="960" >
+            <source src="static/videos/S2_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop  width="960" >\
+            <source src="static/videos/S2_3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">Data-quality Improvement on Different Event Representations</h2>
+<div style="text-align: center;">
+  <img src="static/images/texture.jpg" alt="Close-ups of the same scenes from a standard event camera and from AMI-EV: AMI-EV keeps the texture and lettering that the standard event camera loses" width="960" height="296" loading="lazy" decoding="async">
+  <h2 class="subtitle">
+    Our AMI-EV can acquire more environmental information than traditional event cameras.
+    It can maintain a high-informational output while preserving the advantages of event cameras, such as HDR and high temporal resolution.
+  </h2>
+</div>
+</div>
+</div>
+</section>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="content has-text-justified">
+          <video poster="static/videos/posters/S2.jpg" id="s2-video" controls muted loop playsinline preload="none" width="960">
+            <source src="static/videos/S2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">Low-level Vision Task: Feature Detection and Tracking</h2>
+<div style="text-align: center;">
+  <img src="static/images/feature.jpg" alt="Trackable corner counts over time for AMI-EV, a grayscale camera, and a standard event camera in (i) a structured scene, (ii) an unstructured scene, and (iii) challenging illumination, with example detections" width="960" height="472" loading="lazy" decoding="async">
+  <h2 class="subtitle has-text-centered">
+    In <b>structured environment (i)</b>, both the Grayscale camera and AMI-EV outperform the event camera.
+    In <b>unstructured environment (ii)</b>, Grayscale camera is the best, while AMI-EV can also achieve robust performance.
+    In <b>challenging illumination conditions (iii)</b>, only AMI-EV can work robustly. The grayscale camera suffers from its low dynamic range, while the event camera cannot maintain stable texture.
+  </h2>
+</div>
+</div>
+</div>
+</section>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="content has-text-justified">
+          <video poster="static/videos/posters/S3.jpg" id="s3-video" controls muted loop playsinline preload="none" width="960">
+            <source src="static/videos/S3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">High-level Vision Task: Human Detection and Pose Estimation</h2>
+<div style="text-align: center;">
+  <img src="static/images/S4-1200.jpg" alt="Human pose estimation with an RGB camera at 25 fps, a standard event camera at 50 and 250 fps, and AMI-EV at 1000 and 1500 fps, with accuracy plotted against frame rate" width="960" height="540" loading="lazy" decoding="async">
+
+</div>
+</div>
+</div>
+</section>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="content has-text-justified">
+          <video poster="static/videos/posters/S4.jpg" id="s4-video" controls muted loop playsinline preload="none" width="960">
+            <source src="static/videos/S4.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+<h2 class="title is-3">Open-sourced Simulator</h2>
+<h2 class="subtitle">
+  A simulator is included for trying the system and testing algorithms without the hardware.
+</h2>
+<div style="text-align: center;">
+  <img src="static/images/simulator-1200.jpg" alt="Simulator output: rendered scenes with moving objects and a golf scene, and event images translated from dataset images, each shown for AMI-EV and a standard event camera" width="960" height="871" loading="lazy" decoding="async">
+  <h2 class="subtitle">
+    Data generated by the simulator. <b>(A)</b> (left) 3D rendered scene with multiple moving objects (right) golf scene.
+    <b>(B)</b> Output of the released translator.
+    (left) image from the Neuromorphic-Caltech 101 dataset and two event count images generated from an S-EV and an AMI-EV, respectively;
+    (right) scene from Multi Vehicle Stereo Event Camera Dataset
+  </h2>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Real-world Experiments</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/VINS-Depth.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/Pointclouod.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/omni-plan .mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+
+          <div class="publication-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IOuJ7Y6dpeY?si=E4vkQZLxacZ0bTFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre tabindex="0"><code>@article{doi:10.1126/scirobotics.adj8124,
+  author = {Botao He  and Ze Wang  and Yuan Zhou  and Jingxi Chen  and Chahat Deep Singh  and Haojia Li  and Yuman Gao  and Shaojie Shen  and Kaiwei Wang  and Yanjun Cao  and Chao Xu  and Yiannis Aloimonos  and Fei Gao  and Cornelia Fermüller },
+  title = {Microsaccade-inspired event camera for robotics},
+  journal = {Science Robotics},
+  volume = {9},
+  number = {90},
+  pages = {eadj8124},
+  year = {2024},
+  doi = {10.1126/scirobotics.adj8124},
+  URL = {https://www.science.org/doi/abs/10.1126/scirobotics.adj8124},
+  eprint = {https://www.science.org/doi/pdf/10.1126/scirobotics.adj8124}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+</main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+          <p>
+            Back to <a href="https://botao.me/">Botao He's homepage</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+<script>
+  /* Play the short muted teaser only when the visitor has not asked for reduced motion. */
+  (function () {
+    var v = document.getElementById("teaser-video");
+    if (!v || !window.matchMedia || !window.matchMedia("(prefers-reduced-motion: no-preference)").matches) return;
+    var p = v.play();
+    if (p && p.catch) p.catch(function () { /* blocked: the poster and controls remain */ });
+  })();
+</script>
+  </body>
+  </html>
