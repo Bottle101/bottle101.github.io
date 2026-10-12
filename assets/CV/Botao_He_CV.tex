@@ -1,3 +1,4 @@
+% !TEX program = xelatex
 \documentclass[11pt,letterpaper]{article}
 
 \usepackage[top=0.5in,bottom=0.5in,left=0.7in,right=0.7in]{geometry}
@@ -70,7 +71,7 @@
 
 \section{Research Profile}
 
-I build robots that learn through physical interaction, and the real-world systems
+I build robots that learn through physical interaction, and real-world systems
 that make that learning work.
 
 \section{Education}
@@ -85,9 +86,9 @@ that make that learning work.
 
 \entry{Amazon Frontier AI \& Robotics Team}{— Research Intern}{Jan.\ 2026--present}{
   \begin{itemize}
-    \item Developing learning systems for force-aware dexterous manipulation from multimodal human interaction.
+    \item Developing force-aware dexterous manipulation methods from multimodal human interaction data.
     \item Exploring physics-grounded, interaction-aware video and world models for robot learning.
-    \item Worked on large-scale contact-aware data labeling for robot-learning datasets.
+    \item Working on large-scale contact-aware data labeling for robot-learning datasets.
   \end{itemize}
 }
 
@@ -102,11 +103,7 @@ that make that learning work.
 \section{Selected Research \& Systems}
 
 \entry{Dexterity from Supervised Play}{— learn dexterity from minutes of goal-agnostic human play}{}{
-  A framework in which the robot learns a goal-agnostic play policy from minutes of
-  human play, then deploys it to autonomously collect hours of contact-rich
-  interaction data for training an action-conditioned world model. At inference,
-  model-predictive control selects among play-policy action proposals to reach a
-  requested goal, without task-specific demonstrations.
+Bootstraps a goal-agnostic robot play policy from minutes of human play to collect hours of contact-rich data autonomously. A learned world model and play-policy-guided MPC achieve new goals without task-specific demonstrations.
 }
 
 \entry{\href{https://forceband-emg.github.io/}{\textcolor{ink}{ForceBand}}}{— bring force into human data with EMG, for forceful manipulation}{}{
@@ -122,9 +119,7 @@ that make that learning work.
 }
 
 \entry{\href{https://humanego-ai.github.io/}{\textcolor{ink}{HumanEgo}}}{— learning from minutes of human video}{}{
-  A robot-data-free, hardware-agnostic, and data-efficient pipeline that learns
-  robot manipulation policies from minutes of raw human egocentric videos, powered
-  by a flow matching policy with dense auxiliary objectives.
+  Learns robot manipulation policies from minutes of raw egocentric human video, without robot training data, using flow matching and dense auxiliary objectives.
 }
 
 \entry{\href{https://www.far-planner.com/interactive-far-planner}{\textcolor{ink}{Interactive-FAR}}
@@ -140,6 +135,7 @@ that make that learning work.
   event-based perception methods.
 }
 
+\newpage
 \section{Selected Publications}
 
 \begin{itemize}[itemsep=2pt]
@@ -147,20 +143,19 @@ that make that learning work.
       {Dexterity from Supervised Play.}
       {arXiv coming soon.}
 
-  \pub{\textbf{Botao He}, Zhi Wang, Linna Kuang, et al.}
+  \pub{\textbf{Botao He}, Zhi Wang, Linna Kuang, Ishaan Ghosh, Jitendra Malik,
+      Cornelia Ferm\"uller, Tingfan Wu, Jiayuan Mao, Ruoshi Liu, Haozhi Qi,
+      Yiannis Aloimonos.}
       {ForceBand: Learning Forceful Manipulation with sEMG.}
-      {CoRL 2026. \href{https://forceband-emg.github.io/}{Project}}
+      {CoRL 2026.}
 
   \pub{Eadom Dessalene, \textbf{Botao He}, Michael Maynord, et al.}
       {FEEL (Force-Enhanced Egocentric Learning): A Dataset for Physical Action Understanding.}
-      {ECCV 2026, \textbf{\textcolor{highlight}{Long Oral (25/10,473 submissions)}}.
-      \href{https://www.cs.umd.edu/\string~edessale/feel}{Project} ·
-      \href{https://arxiv.org/abs/2603.15847}{Paper}}
+      {ECCV 2026, \textbf{\textcolor{highlight}{Long Oral (25/10,473 submissions)}}.}
 
   \pub{Zhi Wang, \textbf{Botao He}, Kelin Yu, et al.}
       {HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos.}
-      {IROS 2026 WORLDS Workshop \textbf{\textcolor{highlight}{Best Paper}}.
-      \href{https://humanego-ai.github.io/}{Project}}
+      {IROS 2026 WORLDS Workshop \textbf{\textcolor{highlight}{Best Paper}}.}
 
   \pub{Yu Chen, \textbf{Botao He}, Yuemin Mao, et al.}
       {Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis.}
