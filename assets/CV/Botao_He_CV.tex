@@ -86,9 +86,9 @@ that make that learning work.
 
 \entry{Amazon Frontier AI \& Robotics Team}{— Research Intern}{Jan.\ 2026--present}{
   \begin{itemize}
+    \item Large-scale contact-aware data processing for robot video world model pretraining.
     \item Developing force-aware dexterous manipulation methods from multimodal human interaction data.
     \item Exploring physics-grounded, interaction-aware video and world models for robot learning.
-    \item Working on large-scale contact-aware data labeling for robot-learning datasets.
   \end{itemize}
 }
 
@@ -102,24 +102,31 @@ that make that learning work.
 
 \section{Selected Research \& Systems}
 
-\entry{Dexterity from Supervised Play}{— learn dexterity from minutes of goal-agnostic human play}{}{
-Bootstraps a goal-agnostic robot play policy from minutes of human play to collect hours of contact-rich data autonomously. A learned world model and play-policy-guided MPC achieve new goals without task-specific demonstrations.
+\entry{\href{https://www.yimingdou.com/DreamFAR/}{\textcolor{ink}{DreamFAR}}}{— real-time, long-horizon world simulator}{}{
+  Pre-trained from scratch on robot teleoperation data, with contact-anchored memory
+  that keeps minutes-long autoregressive rollouts consistent.
 }
 
-\entry{\href{https://forceband-emg.github.io/}{\textcolor{ink}{ForceBand}}}{— bring force into human data with EMG, for forceful manipulation}{}{
+\entry{\href{https://card-retargeting.github.io/}{\textcolor{ink}{CARD}}}{— contact-anchored dexterous retargeting}{}{
+  Real-time human-to-robot retargeting without object models or simulation,
+  preserving contact and force alongside kinematics.
+}
+
+\entry{\href{https://forceband-emg.github.io/}{\textcolor{ink}{ForceBand}}}{— bring force into human data with EMG, forceful manipulation directly from human data}{}{
   ForceBand is a low-cost, wrist-worn sEMG band that predicts fingertip forces from
   forearm muscle activity, enabling force-enriched human demonstrations for learning
   forceful robot manipulation—without any force sensors on the hand.
 }
 
-\entry{\href{https://www.cs.umd.edu/\string~edessale/feel}{\textcolor{ink}{FEEL}}}{— force-enhanced egocentric dataset}{}{
+\entry{\href{https://play-policy.github.io/}{\textcolor{ink}{PlayPolicy}}}{— dexterity from supervised play}{}{
+  Bootstraps a goal-agnostic play policy from minutes of human play to collect hours
+  of contact-rich data. Play-policy-guided MPC achieves new goals without task-specific demonstrations.
+}
+
+\entry{\href{https://www.cs.umd.edu/\string~edessale/feel}{\textcolor{ink}{FEEL}}}{— force-enhanced egocentric dataset}{ECCV 2026 Long Oral (25/10473)}{
   A large-scale dataset pairing egocentric video with calibrated glove-based force
   measurements, comprising approximately three million synchronized frames of natural
   manipulation.
-}
-
-\entry{\href{https://humanego-ai.github.io/}{\textcolor{ink}{HumanEgo}}}{— learning from minutes of human video}{}{
-  Learns robot manipulation policies from minutes of raw egocentric human video, without robot training data, using flow matching and dense auxiliary objectives.
 }
 
 \entry{\href{https://www.far-planner.com/interactive-far-planner}{\textcolor{ink}{Interactive-FAR}}
@@ -140,14 +147,23 @@ Bootstraps a goal-agnostic robot play policy from minutes of human play to colle
 
 \begin{itemize}[itemsep=2pt]
   \pub{\textbf{Botao He}, Yiming Dou, Yiannis Aloimonos, Jitendra Malik, Akash Sharma, Ruoshi Liu.}
-      {Dexterity from Supervised Play.}
-      {arXiv coming soon.}
+      {\href{https://play-policy.github.io/}{PlayPolicy: Dexterity from Supervised Play.}}
+      {\href{https://arxiv.org/abs/2610.22340v2}{arXiv:2610.22340}, 2026.}
 
   \pub{\textbf{Botao He}, Zhi Wang, Linna Kuang, Ishaan Ghosh, Jitendra Malik,
       Cornelia Ferm\"uller, Tingfan Wu, Jiayuan Mao, Ruoshi Liu, Haozhi Qi,
       Yiannis Aloimonos.}
       {ForceBand: Learning Forceful Manipulation with sEMG.}
       {CoRL 2026.}
+
+  \pub{Yiming Dou, \textbf{Botao He}, Antonio Loquercio, Andrew Owens, Jitendra Malik,
+      Sumedh Anand Sontakke, Ruoshi Liu.}
+      {\href{https://www.yimingdou.com/DreamFAR/}{DreamFAR: Real-Time \& Long-Horizon Interaction with Diverse Objects.}}
+      {Preprint, 2026.}
+
+  \pub{Cunxi Dai, \textbf{Botao He}, Francois R. Hogan, Wei Pan, et al.}
+      {\href{https://card-retargeting.github.io/}{CARD: Contact-Anchored Retargeting for Dexterous Manipulation.}}
+      {\href{https://arxiv.org/abs/2610.36539}{arXiv:2610.36539}, 2026.}
 
   \pub{Eadom Dessalene, \textbf{Botao He}, Michael Maynord, et al.}
       {FEEL (Force-Enhanced Egocentric Learning): A Dataset for Physical Action Understanding.}
